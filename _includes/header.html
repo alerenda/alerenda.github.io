@@ -43,7 +43,7 @@
           </li>
           {% endif %}
           <!-- Other pages -->
-          {% assign sorted_pages = site.pages | sort: "title" %}
+          {% assign sorted_pages = site.pages | sort: "order" %}
           {% for p in sorted_pages %}
           {% if p.nav and p.autogen == nil %}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">
@@ -54,8 +54,15 @@
                 {% endif %}
               </a>
           </li>
+
           {% endif %}
           {% endfor %}
+					
+		  <li class="nav-item">
+              <a class="nav-link" href="#" target="_blank">
+                AI-LAB
+              </a>
+          </li>
           {% if site.enable_darkmode %}
             <div class = "toggle-container">
               <a id = "light-toggle">

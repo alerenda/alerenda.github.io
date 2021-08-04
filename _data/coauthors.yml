@@ -1,18 +1,23 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Marcelloni":
+  - firstname: ["Francesco", "F."]
+    url: https://scholar.google.it/citations?hl=it&user=_EkQr2QAAAAJ
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Bechini":
+  - firstname: ["Alessio", "A."]
+    url: https://scholar.google.it/citations?user=ooYOGP4AAAAJ&hl=it
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Ducange":
+  - firstname: ["Pietro", "P."]
+    url: https://scholar.google.it/citations?user=HCgZqXEAAAAJ&hl=it    
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Lazzerini": 
+  - firstname: ["Beatrice", "B."]
+    url: https://scholar.google.it/citations?user=wCrpl_0AAAAJ&hl=it
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Bondielli": 
+  - firstname: ["Alessandro", "A."]
+    url: https://scholar.google.it/citations?user=zcXQk6YAAAAJ&hl=it
+    
+"Renda": 
+  - firstname: ["Alessandro", "A."]
+    url: https://scholar.google.it/citations?user=13nYgdUAAAAJ&hl=it

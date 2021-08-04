@@ -2,10 +2,137 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Information about lectures and thesis opportunities
 nav: true
+order: 3
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<p style="background: rgba(0,0,0,0.06) none repeat scroll 0% 0%; border: 1px solid rgb(222, 222, 222); padding: 1em; border-radius: 5px; text-align: center; margin-top:20px">
+<a href="#teaching">teaching</a> |  <a href="#thesis">thesis opportunities</a><br>
 
-Organize your courses by years, topics, or universities, however you like!
+<h2 id="teaching" class="mt-5">teaching activity @ UNIPI</h2>
+
+<div class="card class mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3310093::::&ri=5933" target="_blank">Computational Intelligence and Deep Learning (A.Y. 2020-2021)</a></h5>
+        <h6 class="card-subtitle font-italic" style="color:black"><b>Assistant Lecturer</b>. M.Sc. in Artificial Intelligence and Data Engineering</h6>
+      </div>
+      <div class="col-sm-2 text-sm-right">
+        <span class="badge">
+          <a href="https://esami.unipi.it/programma.php?c=48214&aa=2020&docente=LAZZERINI&insegnamento=&sd=0" target="_blank">877II</a>
+        </span>
+      </div>
+    </div>
+    
+    <ul class="card-text list-group list-group-flush">
+      
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-7" style="color:black">
+            Lab material (available upon request):
+          </div>
+          <div class="col-sm-5">
+            <a href="https://drive.google.com/drive/folders/1M557xTdVmMhrMDnSsZNAjXTIMey8gk4H?usp=sharing" target="_blank">Jupyter Notebooks</a>&nbsp; | <a href="https://drive.google.com/drive/folders/1mtgWj87l3kcXPr4FIAvM1WOOVd4bVDHM?usp=sharing" target="_blank">Final Projects</a>&nbsp;
+          </div>
+        </div>
+      </li>
+    </ul>
+    
+  </div>
+</div>
+
+<div class="card class mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3310927::::&ri=8716" target="_blank">Data Mining and Machine Learning (A.Y. 2020-2021)</a></h5>
+        <h6 class="card-subtitle font-italic" style="color:black"><b>Series of Seminars on Python</b>. M.Sc. in Artificial Intelligence and Data Engineering</h6>
+      </div>
+      <div class="col-sm-2 text-sm-right">
+        <span class="badge">
+          <a href="https://esami.unipi.it/programma.php?c=48213&aa=2020&docente=MARCELLONI&insegnamento=&sd=0" target="_blank">878II</a>
+        </span>
+      </div>
+    </div>
+	    <ul class="card-text list-group list-group-flush">
+      
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-7" style="color:black">
+            Lab material:
+          </div>
+          <div class="col-sm-5">
+            <a href="https://github.com/alerenda/878II-Python" target="_blank"><i class="fab fa-github"></i> Jupyter Notebooks</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+<h4 class="mt-3">past years</h4>
+
+<div class="card class mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3296479::::&ri=5933" target="_blank">Computational Intelligence (A.Y. 2019-2020)</a></h5>
+        <h6 class="card-subtitle font-italic" style="color:black"><b>Assistant Lecturer</b>. M.Sc. in Embedded Computing Systems</h6>
+      </div>
+      <div class="col-sm-2 text-sm-right">
+        <span class="badge">
+          <a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=41999" target="_blank">600II</a>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="card class mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3286032::::&ri=5933" target="_blank">Computational Intelligence (A.Y. 2018-2019)</a></h5>
+        <h6 class="card-subtitle font-italic" style="color:black"><b>Assistant Lecturer</b>. M.Sc. in Embedded Computing Systems</h6>
+      </div>
+      <div class="col-sm-2 text-sm-right">
+        <span class="badge">
+          <a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=41999" target="_blank">600II</a>
+        </span>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+<h2 class="mt-5" id="thesis">thesis opportunities</h2>
+
+:eight_spoked_asterisk: Several thesis opportunities are available at the AI-Lab: take a look at <a href="#" target="_blank">this list</a>, or contact us for an overview on available projects.
+
+<hr />
+
+
+<h4 id="thesis">past theses</h4>
+In the last few years, I have been a co-supervisor of several theses: 
+<ul class="publications">
+    <li class="publications">Master Thesis in Computer Engineering, co-supervisor with Prof. A. Bechini, R. D’aurizio, F. Marcelloni. 
+	<p><i>Addressing High-dimensional Biclustering of Cancer Omics Data: Indications from Computational Experimentations</i></p></li>
+    <li>Master Thesis in Computer Engineering, co-supervisor with Prof. F. Marcelloni, P. Ducange. 
+	<p><i>Design and implementation of Federated Clustering Algorithms</i></p></li>
+    <li>Master Thesis in Computer Engineering, co-supervisor with Prof. P. Ducange, F. Marcelloni. 
+	<p><i>Design and Implementation of an Adaptive Fuzzy Density-based Clustering Algorithm for Streaming data</i></p></li>
+    <li>Master Thesis in Biomedical Engineering, co-supervisor with Prof. A. Bechini. 
+	<p><i>Development of a deep learning system for patient-specific real-time arrhythmia detection: Addressing choice of features and data imbalance</i></p></li>
+    <li>Master Thesis in Computer Engineering, co-supervisor with Prof. A. Bechini, B. Lazzerini, F. Marcelloni. 
+	<p><i>Exploitation of web and social network data for event detection and opinion mining: an enterprise application use case</i></p></li>
+	<li>Master Thesis in Biomedical Engineering, co-supervisor with Prof. A. Bechini. 
+	<p><i>A Novel Deep Learning Solution for Predicting the Secondary Structure of RNA</i></p></li>
+	<li>Master Thesis in Computer Engineering, co-supervisor with Prof. A. Bechini, F. Marcelloni. 
+	<p><i>A novel fuzzy density-based clustering algorithm for streaming data</i></p></li>
+</ul>
+

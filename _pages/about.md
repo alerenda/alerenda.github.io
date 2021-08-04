@@ -2,23 +2,26 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+# description: PhD - Dept. of Information Engineering, University of Pisa
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Dept. of Information Engineering</p>
+    <p>University of Pisa</p>
+    <p>Largo Lucio Lazzarino, 1</p>
+    <p>56122 Pisa PI, Italy</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a **research fellow** at the <a href="https://www.unipi.it" target="_blank">University of Pisa</a>, working at the <a href="https://www.dii.unipi.it" target="_blank">Department of Information Engineering</a> as a member of the <a href="#" target="_blank">Artificial Intelligence LAB (AI-LAB)</a>.
+ 
+My research interests include explainable artificial intelligence, machine learning algorithms for data streams, applications of deep learning methodologies and web/ social mining.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I received the M.Sc. degree in Biomedical Engineering from the University of Pisa in 2017 and the Ph.D. degree in Smart Computing jointly awarded by the Universities of Florence, Pisa and Siena, in 2021, with a dissertation titled "<a href="https://flore.unifi.it/handle/2158/1235915#.YQkjgEDOPb0" target="_blank">Algorithms and Techniques for Data Stream Mining</a>" under the supervision of Dott. Ing. <a href="http://www.iet.unipi.it/a.bechini/BechiniHome.html" target="_blank">Alessio Bechini</a>.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+You can find my latest CV [here](./assets/pdf/CV.pdf)! 

@@ -3,70 +3,153 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
+
+
+@ARTICLE{bechini2021addressing,  
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+   author={A. Bechini and A. Bondielli and P. Ducange and F. Marcelloni and A. Renda},
+    abbr={IEEE Access},
+    journal={IEEE Access},   
+    title={Addressing Event-Driven Concept Drift in Twitter Stream: A Stance Detection Application},   
+    year={2021},  
+    volume={9},  
+    pages={77758-77770},  
+	html = {https://doi.org/10.1109/ACCESS.2021.3083578},
+    doi={10.1109/ACCESS.2021.3083578},
+	pdf={bechini2021addressing.pdf},
+	selected = {true},
+	abstract = {The content posted by users on Social Networks represents an important source of information for a myriad of applications in the wide field known as ‘social sensing’. The Twitter platform in particular hosts the thoughts, opinions and comments of its users, expressed in the form of tweets: as a consequence, tweets are often analyzed with text mining and natural language processing techniques for relevant tasks, ranging from brand reputation and sentiment analysis to stance detection. In most cases the intelligent systems designed to accomplish these tasks are based on a classification model that, once trained, is deployed into the data flow for online monitoring. In this work we show how this approach turns out to be inadequate for the task of stance detection from tweets. In fact, the sequence of tweets that are collected everyday represents a data stream. As it is well known in the literature on data stream mining, classification models may suffer from concept drift, i.e. a change in the data distribution can potentially degrade the performance. We present a broad experimental campaign for the case study of the online monitoring of the stance expressed on Twitter about the vaccination topic in Italy. We compare different learning schemes and propose yet a novel one, aimed at addressing the event-driven concept drift.}}	
+
+@InProceedings{bechini2020,
+bibtex_show={true},
+author={Bechini, A.
+and Lazzerini, B.
+and Marcelloni, F.
+and Renda, A.},
+editoriold={Yang, Xin-She
+and Sherratt, Simon
+and Dey, Nilanjan
+and Joshi, Amit},
+title={Integration of Web-Scraped Data in CPM Tools: The Case of Project Sibilla},
+booktitle={Proceedings of Fifth International Congress on Information and Communication Technology},
+year={2021},
+publisher={Springer Singapore},
+addressold={Singapore},
+pages={279--287},
+isbn={978-981-15-5859-7},
+doi = {https://doi.org/10.1007/978-981-15-5859-7_27},
+html = {https://doi.org/10.1007/978-981-15-5859-7_27},
+slides={bechini2020.pdf},
+abstract = {Modern corporate performance management (CPM) systems are crucial tools for enterprises, but they typically lack a seamless integration with solutions in the Industry 4.0 domain for the exploitation of large amounts of data originated outside the enterprise boundaries. In this paper, we propose a solution to this problem, according to lessons learned in the development of project “Sibilla,” aimed at devising innovative tools in the business intelligence area. A proper software module is introduced with the purpose of enriching existing predictive analysis models with knowledge extracted from the Web and social networks. In particular, we describe how to support two functionalities: identification of planned real-world events and monitoring of public opinion on topics of interest to the company. The effectiveness of the proposed solution has been evaluated by means of a long-term experimental campaign.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+	
+@article{intsys2020, 
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+  author={A. Bechini and P. Ducange and F. Marcelloni and A. Renda},
+    journal={IEEE Intelligent Systems},   
+    abbr={IEEE IS},
+    title={Stance Analysis of Twitter Users: the Case of the Vaccination Topic in Italy},   
+    year={2020}, 
+    pages={1-1},  
+html = {https://doi.org/10.1109/MIS.2020.3044968},
+    doi={10.1109/MIS.2020.3044968},
+	abstract = {People's opinion around social and political issues is currently witnessed by messages ordinarily posted on social media. With reference to a specific case study, namely the vaccination topic in Italy, this work discusses a crucial aspect in structuring the data processing pipeline in intelligent systems aimed at monitoring the public opinion through Twitter messages: a plain analysis of tweet contents is not sufficient to grasp the diversity of behavior across users. To get a sharper picture of the public opinion as expressed on social media, user-related information must be incorporated in the analysis. Relying on a dataset of tweets about vaccination and on an established text classification system, we present the results of a stance monitoring campaign with advanced analysis on temporal and spatial scales. The overall methodological workflow provides a sound solution for public opinion assessment from Twitter data.}}
+	
+
+@article{tsf2020,  
+	bibtex_show={true},
+	author={A. Bechini and F. Marcelloni and A. Renda},
+	abbr={IEEE TFS},
+	journal={IEEE Transactions on Fuzzy Systems},
+	selected = {true},
+	title={TSF-DBSCAN: a Novel Fuzzy Density-based Approach for Clustering Unbounded Data Streams},   
+	year={2020},  
+	pages={1-1},  
+html = {https://doi.org/10.1109/TFUZZ.2020.3042645},
+	doi={10.1109/TFUZZ.2020.3042645},
+	abstract = {In recent years, several clustering algorithms have been proposed with the aim of mining knowledge from streams of data generated at a high speed by a variety of hardware platforms and software applications. Among these algorithms, density-based approaches have proved to be particularly attractive, thanks to their capability of handling outliers and capturing clusters with arbitrary shapes. The streaming setting poses additional challenges that need to be addressed as well: data streams are potentially unbounded and affected by concept drift, i.e. a modification over time in the underlying data generation process. In this paper, we propose Temporal Streaming Fuzzy DBSCAN (TSF-DBSCAN), a novel fuzzy clustering algorithm for streaming data. TSF-DBSCAN is an extension of the well-known DBSCAN algorithm, one of the most popular density-based clustering approaches. Fuzziness is introduced in TSF-DBSCAN to model the uncertainty about the distance threshold that defines the neighborhood of an object. As a consequence, TSF-DBSCAN identifies clusters with fuzzy overlapping borders. A fading model, which makes objects less relevant as they become more remote in time, endows TSF-DBSCAN with the capability of adapting to evolving data streams. The integration of the model in a two-stage approach ensures computational and memory efficiency: during the online stage continuously arriving objects are organized in proper data structures that are later exploited in the offline stage to determine a fine-grained partition. An extensive experimental analysis on synthetic and real world datasets shows that TSF-DBSCAN yields competitive performance when compared to other clustering algorithms recently proposed for streaming data.}}
+	
+@INPROCEEDINGS{fuzzieee2020,
+  bibtex_show={true},
+  author={A. Bechini and M. Criscione and P. Ducange and F. Marcelloni and A. Renda},
+  booktitle={2020 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)}, 
+  title={FDBSCAN-APT: A Fuzzy Density-based Clustering Algorithm with Automatic Parameter Tuning}, 
+  year={2020},
+slides={fuzzieee2020.pdf},
+  pages={1-8},
+html = {https://doi.org/10.1109/FUZZ48607.2020.9177702},
+  doi = {10.1109/FUZZ48607.2020.9177702},
+  abstract = {Density-based clustering algorithms represent a convenient approach when the number of clusters is not known in advance and their shapes are arbitrary. Nevertheless, they are highly sensitive to the input parameter setting, especially when clusters' borders are close to each other, or even overlap. In this paper we propose FDBSCAN-APT, a fuzzy extension of the DBSCAN algorithm. FDBSCAN-APT is able to discover clusters with fuzzy overlapping borders and relies on the automatic setting of input parameters thanks to the definition of a novel heuristic based on the statistical modelling of the density distribution of objects. An extensive experimental analysis carried out on synthetic datasets shows that FDBSCAN-APT always finds reasonable parameter configurations and produces good clustering results in a variety of challenging scenarios.}}
+
+	
+@INPROCEEDINGS{aliperti2019,
+bibtex_show={true},
+author={A. Aliperti and A. Bechini and F. Marcelloni and A. Renda},
+booktitle={2019 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)},
+title={A Fuzzy Density-based Clustering Algorithm for Streaming Data},
+year={2019},
+pages={1-6},
+slides={aliperti2019.pdf},
+doi={10.1109/FUZZ-IEEE.2019.8858909},
+html = {https://doi.org/10.1109/FUZZ-IEEE.2019.8858909},
+ISSN={1544-5615},
+month={June},
+abstract = {The exploitation of data streams, nowadays provided nonstop by a myriad of diverse applications, asks for specific analysis methods. In this paper, we propose SF-DBSCAN, a fuzzy version of the DBSCAN algorithm, aimed to perform unsupervised analysis of streaming data. Fuzziness is introduced by fuzzy borders of density-based clusters. We describe and discuss the proposed algorithm, which evolves the clusters at each occurrence of a new object. Three synthetic datasets are used to show the ability of SF-DBSCAN to successfully track changes of data distribution, thus properly addressing concept drift. SF-DBSCAN is compared with a basic, crisp streaming version of DBSCAN with regard to modelling effectiveness.}}
+
+
+@article{dandrea2019,
+	bibtex_show={true},
+	title = {Monitoring the public opinion about the vaccination topic from tweets analysis},
+	abbr = {ESWA},
+	journal = {Expert Systems with Applications},
+	year = {2019},
+	volume = {116},
+	pages = {209-226},
+	doi =  {10.1016/j.eswa.2018.09.009},
+	author = {D'Andrea, E. and Ducange, P. and Bechini, A. and Renda, A. and Marcelloni, F.},
+html = {https://doi.org/10.1016/j.eswa.2018.09.009},
+abstract = {The paper presents an intelligent system to automatically infer trends in the public opinion regarding the stance towards the vaccination topic: it enables the detection of significant opinion shifts, which can be possibly explained with the occurrence of specific social context-related events. The Italian setting has been taken as the reference use case. The source of information exploited by the system is represented by the collection of vaccine-related tweets, fetched from Twitter according to specific criteria; subsequently, tweets undergo a textual elaboration and a final classification to detect the expressed stance towards vaccination (i.e. in favor, not in favor, and neutral). In tuning the system, we tested multiple combinations of different text representations and classification approaches: the best accuracy was achieved by the scheme that adopts the bag-of-words, with stemmed n-grams as tokens, for text representation and the support vector machine model for the classification. By presenting the results of a monitoring campaign lasting 10 months, we show that the system may be used to track and monitor the public opinion about vaccination decision making, in a low-cost, real-time, and quick fashion. Finally, we also verified that the proposed scheme for continuous tweet classification does not seem to suffer particularly from concept drift, considering the time span of the monitoring campaign.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@article{comparing2019,
+bibtex_show={true},
+title = {Comparing ensemble strategies for deep learning: An application to facial expression recognition},
+journal = {Expert Systems with Applications},
+abbr = {ESWA},
+volume = {136},
+pages = {1 - 11},
+year = {2019},
+issn = {0957-4174},
+html = {https://doi.org/10.1016/j.eswa.2019.06.025},
+doi = {https://doi.org/10.1016/j.eswa.2019.06.025},
+author = {A. Renda and M. Barsacchi and A. Bechini and F. Marcelloni},
+keywords = {Facial Expression Recognition, Convolutional Neural Networks, Ensemble learning, Ensemble construction},
+abstract = {Recent works have shown that Convolutional Neural Networks (CNNs), because of their effectiveness in feature extraction and classification tasks, are suitable tools to address the Facial Expression Recognition (FER) problem. Further, it has been pointed out how ensembles of CNNs allow improving classification accuracy. Nevertheless, a detailed experimental analysis on how ensembles of CNNs could be effectively generated in the FER context has not been performed yet, although it would have considerable value for improving the results obtained in the FER task. This paper aims to present an extensive investigation on different aspects of the ensemble generation, focusing on the factors that influence the classification accuracy on the FER context. In particular, we evaluate several strategies for the ensemble generation, different aggregation schemes, and the dependence upon the number of base classifiers in the ensemble. The final objective is to provide some indications for building up effective ensembles of CNNs. Specifically, we observed that exploiting different sources of variability is crucial for the improvement of the overall accuracy. To this aim, pre-processing and pre-training procedures are able to provide a satisfactory variability across the base classifiers, while the use of different seeds does not appear as an effective solution. Bagging ensures a high ensemble gain, but the overall accuracy is limited by poor-performing base classifiers. The impact of increasing the ensemble size specifically depends on the adopted strategy, but also in the best case the performance gain obtained by involving additional base classifiers becomes not significant beyond a certain limit size, thus suggesting to avoid very large ensembles. Finally, the classic averaging voting proves to be an appropriate aggregation scheme, achieving accuracy values comparable to or slightly better than the other experimented operators.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@incollection{bechini2019a,
+	year = {2019},
+	author = {A. Bechini and A. Bondielli and B. Lazzerini and F. Marcelloni and A. Renda},
+	title = {Opinion and Job & Business Opportunity Mining},
+	booktitle = {Ital-IA: Convegno Nazionale CINI sull'Intelligenza Artificiale},
+	url = {http://ital-ia.it/2019/submission/185/paper},
+	html = {http://ital-ia.it/2019/submission/185/paper},
+	abstract = {Il gruppo di Data Mining e Machine Learning del Dipartimento di Ingegneria dell’Informazione dell’Università di Pisa si sta attualmente occupando dell’applicazione di tecniche tipiche dell’Intelligenza Artificiale a vari sistemi di supporto alla Business Intelligence aziendale. In questo documento si presentano alcune attività progettuali attualmente svolte dal gruppo, focalizzate sull’estrazione di conoscenza da grandi moli di dati per renderla disponibile a strumenti software utilizzati dalle aziende a supporto del loro business e per la definizione delle relative strategie di marketing e di sviluppo. I dati considerati sono prevalentemente testuali e possono venire estratti anche da Web e Social Networks.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@incollection{assessing2019,
+	bibtex_show={true},
+	doi = {10.1007/978-3-030-13709-0_34},
+	html = {https://doi.org/10.1007/978-3-030-13709-0_34},
+	year = 2019,
+	publisher = {Springer International Publishing},
+	pages = {406--417},
+	author = {A. Renda and M. Barsacchi and A. Bechini and F. Marcelloni},
+	title = {Assessing Accuracy of Ensemble Learning for Facial Expression Recognition with CNNs},
+	booktitle = {Machine Learning, Optimization, and Data Science},
+    slides={assessing2019.pdf},
+	abstract = {Automatic facial expression recognition has recently attracted the interest of researchers in the field of computer vision and deep learning. Convolutional Neural Networks (CNNs) have proved to be an effective solution for feature extraction and classification of emotions from facial images. Further, ensembles of CNNs are typically adopted to boost classification performance.In this paper, we investigate two straightforward strategies adopted to generate error-independent base classifiers in an ensemble: the first strategy varies the seed of the pseudo-random number generator for determining the random components of the networks; the second one combines the seed variation with different transformations of the input images. The comparison between the strategies is performed under two different scenarios, namely, training from scratch an ad-hoc architecture and fine-tuning a state-of-the-art model. As expected, the second strategy, which adopts a higher level of variability, yields to a more effective ensemble for both the scenarios. Furthermore, training from scratch an ad-hoc architecture allows achieving on average a higher classification accuracy than fine-tuning a very deep pretrained model. Finally, we observe that, in our experimental setup, the increase of the ensemble size does not guarantee an accuracy gain.}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
+
