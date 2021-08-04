@@ -2,7 +2,11 @@
   <h2>news</h2>
   {% if site.news  %}
     <div class="table-responsive">
-      <table class="table table-sm table-borderless">
+      <table class="table table-sm table-borderless" style="width: 100%">
+    <colgroup>
+       <col span="1" style="width: 15%;">
+       <col span="1" style="width: 85%;">
+    </colgroup>
       {% assign news = site.news | reverse %}
       {% for item in news limit: site.news_limit %}
         <tr>
