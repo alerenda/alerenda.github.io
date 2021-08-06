@@ -10,6 +10,7 @@ order: 6
 
 #### reviewer for international journals
 <ul>
+    <li>Information Sciences</li>
     <li>IEEE Transactions on Fuzzy Systems</li>
     <li>IEEE Access</li>
     <li>Expert Systems With Applications</li>
