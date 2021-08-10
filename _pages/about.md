@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a **research fellow** at the <a href="https://www.unipi.it" target="_blank">University of Pisa</a>, working at the <a href="https://www.dii.unipi.it" target="_blank">Department of Information Engineering</a> as a member of the <a href="#" target="_blank">Artificial Intelligence LAB (AI-LAB)</a>.
+I'm a **research fellow** at the <a href="https://www.unipi.it" target="_blank">University of Pisa</a>, working at the <a href="https://www.dii.unipi.it" target="_blank">Department of Information Engineering (DII)</a> as a member of the <a href="#" target="_blank">Artificial Intelligence-DII (AI-DII)</a> LAB.
  
 My research interests include explainable artificial intelligence, machine learning algorithms for data streams, applications of deep learning methodologies and web/ social mining.
 
