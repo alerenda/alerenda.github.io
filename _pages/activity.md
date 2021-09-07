@@ -17,6 +17,7 @@ order: 6
     <li>Soft Computing</li>
 	<li>Online Social Network and Media</li>
 	<li>Wireless Networks</li>
+	<li>Applied Computing and Informatics</li>
 </ul>
 
 #### reviewer for international conferences and workshops
@@ -26,6 +27,4 @@ order: 6
     <li>Helmeto 2021</li>
     <li>IEEE EAIS2020</li>
     <li>APPLEPIES2018</li>
-	<li>Online Social Network and Media</li>
-	<li>Wireless Networks</li>
-</ul>
+	</ul>
