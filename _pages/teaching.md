@@ -11,17 +11,16 @@ order: 3
 <a href="#teaching">teaching</a> |  <a href="#thesis">thesis opportunities</a><br>
 
 <h2 id="teaching" class="mt-5">teaching activity @ UNIPI</h2>
-
 <div class="card class mt-3">
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3310093::::&ri=5933" target="_blank">Computational Intelligence and Deep Learning (A.Y. 2020-2021)</a></h5>
-        <h6 class="card-subtitle font-italic" style="color:black"><b>Assistant Lecturer</b>. M.Sc. in Artificial Intelligence and Data Engineering</h6>
+        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3323567::::&ri=8716" target="_blank">Artificial Intelligence for Cybersecurity (A.Y. 2021-2022)</a></h5>
+        <h6 class="card-subtitle font-italic" style="color:black"><b>Assistant Lecturer</b>. M.Sc. in Cybersecurity</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
         <span class="badge">
-          <a href="https://esami.unipi.it/programma.php?c=48214&aa=2020&docente=LAZZERINI&insegnamento=&sd=0" target="_blank">877II</a>
+          <a href="https://esami.unipi.it/programma.php?c=52658&aa=2021&docente=MARCELLONI&insegnamento=&sd=0" target="_blank">931II</a>
         </span>
       </div>
     </div>
@@ -34,7 +33,7 @@ order: 3
             Lab material (available upon request):
           </div>
           <div class="col-sm-5">
-            <a href="https://drive.google.com/drive/folders/1M557xTdVmMhrMDnSsZNAjXTIMey8gk4H?usp=sharing" target="_blank">Jupyter Notebooks</a>&nbsp; | <a href="https://drive.google.com/drive/folders/1mtgWj87l3kcXPr4FIAvM1WOOVd4bVDHM?usp=sharing" target="_blank">Final Projects</a>&nbsp;
+            <a href="https://unipiit.sharepoint.com/sites/a__td_52658/Materiale%20del%20corso/Forms/AllItems.aspx" target="_blank">Sharepoint</a>&nbsp; | <a href="https://unipiit.sharepoint.com/:p:/r/sites/a__td_52658/_layouts/15/doc2.aspx?sourcedoc=%7B7A1AE3A6-38A0-418F-81AD-C6F7E88A7856%7D&file=Final%20Project.pptx&action=edit&mobileredirect=true&wdOrigin=TEAMS-ELECTRON.teams.files&wdExp=TEAMS-CONTROL&wdhostclicktime=1648828925686" target="_blank">Final Projects</a>&nbsp;
           </div>
         </div>
       </li>
@@ -43,16 +42,49 @@ order: 3
   </div>
 </div>
 
+
 <div class="card class mt-3">
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3310927::::&ri=8716" target="_blank">Data Mining and Machine Learning (A.Y. 2020-2021)</a></h5>
+        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3322718::::&ri=5933" target="_blank">Computational Intelligence and Deep Learning (A.Y. 2021-2022)</a></h5>
+        <h6 class="card-subtitle font-italic" style="color:black"><b>Assistant Lecturer</b>. M.Sc. in Artificial Intelligence and Data Engineering</h6>
+      </div>
+      <div class="col-sm-2 text-sm-right">
+        <span class="badge">
+          <a href="https://esami.unipi.it/programma.php?c=52620&aa=2021&docente=LAZZERINI&insegnamento=&sd=0" target="_blank">877II</a>
+        </span>
+      </div>
+    </div>
+    
+    <ul class="card-text list-group list-group-flush">
+      
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-7" style="color:black">
+            Lab material (available upon request):
+          </div>
+          <div class="col-sm-5">
+            <a href="https://drive.google.com/drive/folders/1UN9VDDrX6HX8wS1MpOsLimMT90CBVTWC?usp=sharing" target="_blank">Jupyter Notebooks</a>&nbsp; | <a href="https://drive.google.com/drive/folders/1UN9VDDrX6HX8wS1MpOsLimMT90CBVTWC?usp=sharing" target="_blank">Final Projects</a>&nbsp;
+          </div>
+        </div>
+      </li>
+    </ul>
+    
+  </div>
+</div>
+
+
+<div class="card class mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3323568::::&ri=8716" target="_blank">Data Mining and Machine Learning (A.Y. 2021-2022)</a></h5>
         <h6 class="card-subtitle font-italic" style="color:black"><b>Series of Seminars on Python</b>. M.Sc. in Artificial Intelligence and Data Engineering</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
         <span class="badge">
-          <a href="https://esami.unipi.it/programma.php?c=48213&aa=2020&docente=MARCELLONI&insegnamento=&sd=0" target="_blank">878II</a>
+          <a href="https://esami.unipi.it/programma.php?c=52616&aa=2021&docente=MARCELLONI&insegnamento=&sd=0" target="_blank">878II</a>
         </span>
       </div>
     </div>
@@ -74,6 +106,25 @@ order: 3
 
 
 <h4 class="mt-3">past years</h4>
+
+
+
+<div class="card class mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3310093::::&ri=5933" target="_blank">Computational Intelligence and Deep Learning (A.Y. 2020-2021)</a></h5>
+        <h6 class="card-subtitle font-italic" style="color:black"><b>Assistant Lecturer</b>. M.Sc. in Artificial Intelligence and Data Engineering</h6>
+      </div>
+      <div class="col-sm-2 text-sm-right">
+        <span class="badge">
+          <a href="https://esami.unipi.it/programma.php?c=48214&aa=2020&docente=LAZZERINI&insegnamento=&sd=0" target="_blank">877II</a>
+        </span>
+      </div>
+    </div>    
+  </div>
+</div>
+
 
 <div class="card class mt-3">
   <div class="p-3">

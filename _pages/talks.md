@@ -4,7 +4,7 @@ title: talks
 permalink: /talks/
 description: Dissemination activity, participation at international conferences with contributed talks, and seminars.
 nav: true
-display_categories: [contributed talks, seminars]
+display_categories: [invited talks - round tables, contributed talks, seminars]
 order: 4
 ---
 <div class="talks">
