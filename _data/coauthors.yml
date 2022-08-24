@@ -21,3 +21,35 @@
 "Renda": 
   - firstname: ["Alessandro", "A."]
     url: https://scholar.google.it/citations?user=13nYgdUAAAAJ&hl=it
+    
+"Bárcena": 
+  - firstname: ["J.L.C.", "J. L. Corcuera"]
+    url: https://scholar.google.it/citations?user=dasDbcAAAAAJ&hl=it
+    
+"Sabella": 
+  - firstname: ["D.", "Dario"]
+    url: https://scholar.google.it/citations?hl=it&user=NkExjkQAAAAJ
+
+"Nardini": 
+  - firstname: ["G.", "Giovanni"]
+    url: https://scholar.google.it/citations?hl=it&user=M4pMxR0AAAAJ
+    
+"Stea": 
+  - firstname: ["G.", "Giovanni"]
+    url: https://scholar.google.it/citations?user=E8PZ3vgAAAAJ&hl=it
+    
+"Virdis": 
+  - firstname: ["A.", "Antonio"]
+    url: https://scholar.google.it/citations?user=6Jz6BZMAAAAJ&hl=it
+
+"Filippou": 
+  - firstname: ["M.C.", "Miltiadis C."]
+    url: https://scholar.google.it/citations?hl=it&user=LJJWg9wAAAAJ
+
+"Baltar": 
+  - firstname: ["L.G.", "Leonardo Gomes"]
+    url: https://scholar.google.it/citations?hl=it&user=n3U8DVUAAAAJ
+    
+"Micheli": 
+  - firstname: ["D.", "Davide"]
+    url: https://scholar.google.it/citations?hl=it&user=S_00ubMAAAAJ
