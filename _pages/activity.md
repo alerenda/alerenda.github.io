@@ -34,6 +34,7 @@ order: 6
 
 #### reviewer for international conferences and workshops
 <ul>
+    <li>WCNC 2023</li>
     <li>AI6G 2022</li>
     <li>ICDM 2021</li>
     <li>EuCNC 2021</li>
