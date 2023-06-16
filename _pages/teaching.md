@@ -15,7 +15,71 @@ order: 3
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3323567::::&ri=8716" target="_blank">Artificial Intelligence for Cybersecurity (A.Y. 2021-2022)</a></h5>
+        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=7084175::::&ri=029560" target="_blank">Data Mining and Machine Learning (A.Y. 22-23)</a></h5>
+        <h6 class="card-subtitle font-italic" style="color:black"><b>Lecturer</b>. M.Sc. in Artificial Intelligence and Data Engineering</h6>
+      </div>
+      <div class="col-sm-2 text-sm-right">
+        <span class="badge">
+          <a href="https://esami.unipi.it/programma.php?c=56940&aa=2022&docente=RENDA&insegnamento=&sd=0" target="_blank">878II</a>
+        </span>
+      </div>
+    </div>
+	    <ul class="card-text list-group list-group-flush">
+      
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-7" style="color:black">
+            Lab material (available upon request):
+          </div>
+          <div class="col-sm-5">
+            <a href="https://unipiit.sharepoint.com/:f:/s/a__td_56940/EpwLHMWgvHNFm8g1xthqnYAB_EukgflYAVzckEe2muvGoA?e=ewQ0EN" target="_blank">Sharepoint</a> 
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="card class mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=7085950::::&ri=029560" target="_blank">Informatica Industriale e Process Analytics (A.Y. 22-23)</a></h5>
+        <h6 class="card-subtitle font-italic" style="color:black"><b>Lecturer</b>. M.Sc. in Ingegneria Gestionale</h6>
+      </div>
+      <div class="col-sm-2 text-sm-right">
+        <span class="badge">
+          <a href="https://esami.unipi.it/programma.php?c=56170&aa=2022&docente=RENDA&insegnamento=&sd=0" target="_blank">1022I</a>
+        </span>
+      </div>
+    </div>
+    
+    <ul class="card-text list-group list-group-flush">
+      
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-7" style="color:black">
+            Lab material (available upon request):
+          </div>
+          <div class="col-sm-5">
+            <a href="https://unipiit.sharepoint.com/:f:/s/a__td_56170/EhuA8B3A16VHuU5r-wF4MRcBk2dXtjXPcK6yo5bveb5b9Q?e=UFYvvb" target="_blank">Sharepoint</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+    
+  </div>
+</div>
+
+
+<h4 class="mt-3">past years</h4>
+
+<div class="card class mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3323567::::&ri=8716" target="_blank">Artificial Intelligence for Cybersecurity (A.Y. 21-22)</a></h5>
         <h6 class="card-subtitle font-italic" style="color:black"><b>Assistant Lecturer</b>. M.Sc. in Cybersecurity</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
@@ -47,7 +111,7 @@ order: 3
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3322718::::&ri=5933" target="_blank">Computational Intelligence and Deep Learning (A.Y. 2021-2022)</a></h5>
+        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3322718::::&ri=5933" target="_blank">Computational Intelligence and Deep Learning (A.Y. 21-22)</a></h5>
         <h6 class="card-subtitle font-italic" style="color:black"><b>Assistant Lecturer</b>. M.Sc. in Artificial Intelligence and Data Engineering</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
@@ -79,7 +143,7 @@ order: 3
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3323568::::&ri=8716" target="_blank">Data Mining and Machine Learning (A.Y. 2021-2022)</a></h5>
+        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3323568::::&ri=8716" target="_blank">Data Mining and Machine Learning (A.Y. 21-22)</a></h5>
         <h6 class="card-subtitle font-italic" style="color:black"><b>Series of Seminars on Python</b>. M.Sc. in Artificial Intelligence and Data Engineering</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
@@ -105,15 +169,12 @@ order: 3
 </div>
 
 
-<h4 class="mt-3">past years</h4>
-
-
 
 <div class="card class mt-3">
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3310093::::&ri=5933" target="_blank">Computational Intelligence and Deep Learning (A.Y. 2020-2021)</a></h5>
+        <h5 class="card-title">Computational Intelligence and Deep Learning <a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3310093::::&ri=5933" target="_blank">(A.Y. 20-21)</a></h5>
         <h6 class="card-subtitle font-italic" style="color:black"><b>Assistant Lecturer</b>. M.Sc. in Artificial Intelligence and Data Engineering</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
@@ -130,7 +191,7 @@ order: 3
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3296479::::&ri=5933" target="_blank">Computational Intelligence (A.Y. 2019-2020)</a></h5>
+        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3296479::::&ri=5933" target="_blank">Computational Intelligence (A.Y. 19-20)</a></h5>
         <h6 class="card-subtitle font-italic" style="color:black"><b>Assistant Lecturer</b>. M.Sc. in Embedded Computing Systems</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
@@ -147,7 +208,7 @@ order: 3
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3286032::::&ri=5933" target="_blank">Computational Intelligence (A.Y. 2018-2019)</a></h5>
+        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=3286032::::&ri=5933" target="_blank">Computational Intelligence (A.Y. 18-19)</a></h5>
         <h6 class="card-subtitle font-italic" style="color:black"><b>Assistant Lecturer</b>. M.Sc. in Embedded Computing Systems</h6>
       </div>
       <div class="col-sm-2 text-sm-right">

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pageMap
 title: talks
 permalink: /talks/
 description: Dissemination activity, participation at international conferences with contributed talks, and seminars.

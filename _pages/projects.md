@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: A collection of the major research projects in which I have been involved.
 nav: true
-display_categories: [european, national]
+display_categories: [european, national, other]
 horizontal: false
 order: 5
 ---

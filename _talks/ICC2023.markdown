@@ -1,0 +1,11 @@
+---
+layout: page
+sigla: ICC2023 
+venue: IEEE International Conference on Communications 2023
+title: PA-1 Trustworthy 6G Networking
+data: 29 May 2023
+img: /assets/img/icc2023.png
+importance: "2023-05-29"
+location: Rome
+category: invited talks - round tables
+---
