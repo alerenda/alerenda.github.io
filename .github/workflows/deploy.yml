@@ -8,16 +8,16 @@ on:
     branches:
       - master
 
+
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-    - name: Setup Ruby
-      uses: actions/setup-ruby@v1
-      with:
-        ruby-version: '2.7'
+    - name: Setup Ruby, JRuby and TruffleRuby
+    uses: ruby/setup-ruby@v1.152.0
     - name: Enable bundler cache
       uses: actions/cache@v2
       with:
