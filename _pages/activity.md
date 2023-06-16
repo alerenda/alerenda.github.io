@@ -46,6 +46,7 @@ order: 6
 <ul>
     <li>xAI 2023</li>
     <li>IEEE SMC 2023</li>
+    <li>WCNC 2023</li>
     <li>AI6G 2022</li>
     <li>ICDM 2021</li>
     <li>EuCNC 2021</li>
