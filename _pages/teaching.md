@@ -224,7 +224,7 @@ order: 3
 
 <h2 class="mt-5" id="thesis">thesis opportunities</h2>
 
-:eight_spoked_asterisk: Several thesis opportunities are available at the AI-Lab: take a look at <a href="#" target="_blank">this list</a>, or contact us for an overview on available projects.
+:eight_spoked_asterisk: Several thesis opportunities are available at the AI-Lab: take a look at <a href="http://ai.dii.unipi.it/thesis/" target="_blank">this list</a>, or contact us for an overview on available projects.
 
 <hr />
 
