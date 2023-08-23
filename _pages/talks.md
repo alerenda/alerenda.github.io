@@ -6,6 +6,9 @@ description: Dissemination activity, participation at international conferences 
 nav: true
 display_categories: [invited talks - round tables, contributed talks, seminars]
 order: 4
+location:
+  latitude: 51.5285582
+  longitude: -0.2416807
 ---
 <div class="talks">
   <!-- Display categorized projects -->
