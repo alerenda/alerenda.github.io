@@ -11,6 +11,7 @@ location:
   longitude: -0.2416807
 ---
 <div class="talks">
+  {% google_map %}
   <!-- Display categorized projects -->
     {% for category in page.display_categories %}
       <h2 class="category">{{category}}</h2>
