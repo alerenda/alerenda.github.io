@@ -15,12 +15,12 @@ order: 3
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=7084175::::&ri=029560" target="_blank">Data Mining and Machine Learning (A.Y. 22-23)</a></h5>
+        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=10336596::::&ri=029560" target="_blank">Data Mining and Machine Learning (A.Y. 23-24)</a></h5>
         <h6 class="card-subtitle font-italic" style="color:black"><b>Lecturer</b>. M.Sc. in Artificial Intelligence and Data Engineering</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
         <span class="badge">
-          <a href="https://esami.unipi.it/programma.php?c=56940&aa=2022&docente=RENDA&insegnamento=&sd=0" target="_blank">878II</a>
+          <a href="https://esami.unipi.it/programma.php?c=61132&aa=2023&docente=RENDA&insegnamento=&sd=0" target="_blank">878II</a>
         </span>
       </div>
     </div>
@@ -32,7 +32,7 @@ order: 3
             Lab material (available upon request):
           </div>
           <div class="col-sm-5">
-            <a href="https://unipiit.sharepoint.com/:f:/s/a__td_56940/EpwLHMWgvHNFm8g1xthqnYAB_EukgflYAVzckEe2muvGoA?e=ewQ0EN" target="_blank">Sharepoint</a> 
+            <a href="https://unipiit.sharepoint.com/:f:/s/a__td_61132/EtJbWYjcHltFnfhwhA57QKoB0PUw0_XkxQSZ2_YUb86O5w?e=TYn6eJ" target="_blank">Sharepoint</a> 
           </div>
         </div>
       </li>
@@ -74,6 +74,34 @@ order: 3
 
 
 <h4 class="mt-3">past years</h4>
+<div class="card class mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 class="card-title"><a href="https://unimap.unipi.it/registri/dettregistriNEW.php?re=7084175::::&ri=029560" target="_blank">Data Mining and Machine Learning (A.Y. 22-23)</a></h5>
+        <h6 class="card-subtitle font-italic" style="color:black"><b>Lecturer</b>. M.Sc. in Artificial Intelligence and Data Engineering</h6>
+      </div>
+      <div class="col-sm-2 text-sm-right">
+        <span class="badge">
+          <a href="https://esami.unipi.it/programma.php?c=56940&aa=2022&docente=RENDA&insegnamento=&sd=0" target="_blank">878II</a>
+        </span>
+      </div>
+    </div>
+	    <ul class="card-text list-group list-group-flush">
+      
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-7" style="color:black">
+            Lab material (available upon request):
+          </div>
+          <div class="col-sm-5">
+            <a href="https://unipiit.sharepoint.com/:f:/s/a__td_56940/EpwLHMWgvHNFm8g1xthqnYAB_EukgflYAVzckEe2muvGoA?e=ewQ0EN" target="_blank">Sharepoint</a> 
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
 
 <div class="card class mt-3">
   <div class="p-3">
