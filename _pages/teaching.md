@@ -252,8 +252,12 @@ order: 3
 
 <h2 class="mt-5" id="thesis">thesis opportunities</h2>
 
-:eight_spoked_asterisk: Several thesis opportunities are available at the AI-Lab: take a look at <a href="http://ai.dii.unipi.it/thesis/" target="_blank">this list</a>, or contact us for an overview on available projects.
-
+:eight_spoked_asterisk: Several thesis opportunities are available at the AI-Lab: take a look at <a href="http://ai.dii.unipi.it/thesis/" target="_blank">this list</a>, or contact us for an overview on available projects. 
+<ul class="publications">
+    <li class="publications"><a href="https://ai.dii.unipi.it/wp-content/uploads/2023/07/Proposal_2023_07_04_1.pdf" target="_blank">Advancements in Trustworthy Artificial Intelligence</a></li>
+    <li class="publications"><a href="https://ai.dii.unipi.it/wp-content/uploads/2023/07/Proposal_2023_07_04_2.pdf" target="_blank">Object Detection in Industry 4.0 and AgriTech</a></li>
+    <li class="publications"><a href="https://ai.dii.unipi.it/wp-content/uploads/2023/07/Proposal_2023_07_04_3.pdf" target="_blank">IT2PAO: Intelligent Techniques for Process Automation and Optimization</a></li>
+</ul>
 <hr />
 
 
