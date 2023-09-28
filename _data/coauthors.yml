@@ -21,7 +21,11 @@
 "Renda": 
   - firstname: ["Alessandro", "A."]
     url: https://scholar.google.it/citations?user=13nYgdUAAAAJ&hl=it
-    
+
+"Ruffini": 
+  - firstname: ["Fabrizio", "F."]
+    url: https://scholar.google.it/citations?hl=it&user=qLBgBmwAAAAJ
+        
 "Bárcena": 
   - firstname: ["J.L.C.", "J. L. Corcuera"]
     url: https://scholar.google.it/citations?user=dasDbcAAAAAJ&hl=it
