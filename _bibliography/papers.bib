@@ -381,9 +381,11 @@ author = {J. L. Corcuera Bárcena and P. Ducange and F. Marcelloni and A. Renda 
 doi = {10.1109/FUZZ52849.2023.10309758},
 year = {2023},
 date = {2023-01-01},
+html = {https://doi.org/10.1109/FUZZ52849.2023.10309758},
 booktitle = {2023 IEEE International Conference on Fuzzy Systems (FUZZ)},
 pages = {1-8},
 keywords = {},
+bibtex_show={true},
 pubstate = {published},
 tppubtype = {inproceedings},
 Abstract ={Real-time applications based on streaming data collected from remote devices, such as smartphones and vehicles, are commonly developed using Artificial Intelligence (AI). Such applications must fulfill different requirements: on one hand, they must ensure good performance and must deliver results in a timely manner; on the other hand, with the objective of being compliant with the AI-specific regulations, they shall preserve data privacy and guarantee a certain level of explainability. In this paper, we describe an AI-based application to predict the Quality of Experience (QoE) for videos acquired by moving vehicles from Beyond 5G and 6G (B5G/6G) network data. To this aim, we exploit a Takagi-Sugeno-Kang (TSK) fuzzy model learned by employing a federated approach, thus meeting, simultaneously, the requests for explainability and data privacy preservation. A thorough experimental analysis, involving also the comparison with an opaque baseline (i.e., a neural network model), is presented and shows that the TSK model can be regarded as a viable solution which guarantees on the one side an optimal trade-off between interpretability and accuracy, and on the other side preserves the data privacy.}
@@ -393,6 +395,8 @@ Abstract ={Real-time applications based on streaming data collected from remote 
 title = {An Application for Federated Learning of XAI Models in Edge Computing Environments},
 author = {A. Bechini and M. Daole and P. Ducange and F. Marcelloni and A. Renda},
 doi = {10.1109/FUZZ52849.2023.10309783},
+html = {https://doi.org/10.1109/FUZZ52849.2023.10309783},
+bibtex_show={true},
 year = {2023},
 date = {2023-01-01},
 booktitle = {2023 IEEE International Conference on Fuzzy Systems (FUZZ)},
@@ -407,7 +411,9 @@ abstract={The next generation of wireless networks will feature an increasing nu
 title = {Federated Learning of Explainable Artificial Intelligence Models for Predicting Parkinson's Disease Progression},
 author = {J. L. Corcuera Bárcena and P. Ducange and F. Marcelloni and A. Renda and F. Ruffini},
 editor = {Luca Longo},
+bibtex_show={true},
 isbn = {978-3-031-44064-9},
+html = {https://doi.org/10.1007/978-3-031-44064-9_34},
 year = {2023},
 date = {2023-01-01},
 booktitle = {Explainable Artificial Intelligence},
@@ -420,11 +426,44 @@ pubstate = {published},
 tppubtype = {inproceedings}
 }
 
-@inproceedings{corcuera2021federated,
-  title={{Federated Learning of Explainable Artificial Intelligence Models: A Proof-of-Concept for Video-streaming Quality Forecasting in B5G/6G networks 164-168}},
+@inproceedings{demo2023,
+  title={Federated Learning of Explainable Artificial Intelligence Models: A Proof-of-Concept for Video-streaming Quality Forecasting in B5G/6G networks},
+  bibtex_show={true},
   author={J. L. Corcuera Bárcena and M. Daole and P. Ducange and F. Marcelloni and G. Nardini and A. Renda and G. Stea},
   booktitle={xAI-2023 Late-breaking Work, Demos and Doctoral Consortium Joint Proceedings},
   volume={3554},
   pages={164--168},
-  year={2023}
+  html={https://ceur-ws.org/Vol-3554/paper29.pdf},
+  pdf={demo.pdf},
+  year={2023},
+abstract={The next generation of mobile networks is poised to rely extensively on Artificial Intelligence (AI) to deliver innovative services. However, it is crucial for AI systems to fulfill key requirements such as trustworthiness, inclusiveness, and sustainability. Starting from these requirements, we proposed Federated Learning of eXplainable AI (Fed-XAI) models within the Hexa-X EU Flagship Project for 6G. This paper focuses on the implementation of a real-time testbed, serving as a proof of concept for the Fed-XAI paradigm. The testbed utilizes genuine applications and real devices that interact with a mobile network, emulated using the Simu5G simulator. Its primary objective is to provide explainable predictions regarding video-streaming quality in an automotive scenario.}
 }
+
+@inproceedings{italia2023,
+  title={Trustworthy AI for Next Generation Networks: the Fed-XAI innovative paradigm from the Hexa-X EU Flagship Project},
+  bibtex_show={true},
+  author={P. Ducange and F. Marcelloni and D. Micheli and G. Nardini and A. Renda and D. Sabella and G. Stea and A. Virdis},
+  booktitle={Proceedings of the Italia Intelligenza Artificiale - Thematic Workshops co-located with the 3rd CINI National Lab AIIS Conference on Artificial Intelligence (Ital IA 2023)},
+  volume={3486},
+  pages={359--364},
+  html={https://ceur-ws.org/Vol-3486/70.pdf},
+  pdf={italia2023.pdf},
+  year={2023},
+  abstract={This work presents the joint research activities on AI in and for 6G carried out by University of Pisa, Intel Corporation Italia s.p.a. and Telecom Italia s.p.a., within the Hexa-X EU project. Specifically, we focus on Federated Learning of Explainable Artificial Intelligence (Fed-XAI), which has been recently awarded as key innovation by the EU Innovation Radar. We present the main recent achievements, that can be summarised in algorithms for generating federated XAI models in a privacy-preserved environment, a communication framework for Federated-Learning-as-a-Service and orchestration algorithms of federated learning participants. Finally, we discuss a proof of concept, that showcases the aforementioned Fed-XAI components.}
+}
+
+@conference{fcta23,
+author={J. L. Corcuera Bárcena and P. Ducange and R. Gallo and F. Marcelloni and A. Renda and F. Ruffini},
+title={Experimental Assessment of Heterogeneous Fuzzy Regression Trees},
+booktitle={Proceedings of the 15th International Joint Conference on Computational Intelligence - Volume 1: FCTA},
+year={2023},
+pages={376-384},
+publisher={SciTePress},
+organization={INSTICC},
+doi={10.5220/0012231000003595},
+html = {https://doi.org/10.5220/0012231000003595},
+isbn={978-989-758-674-3},
+Abstract={Fuzzy Regression Trees (FRTs) are widely acknowledged as highly interpretable ML models, capable of dealing with noise and/or uncertainty thanks to the adoption of fuzziness. The accuracy of FRTs, however, strongly depends on the polynomial function adopted in the leaf nodes. Indeed, their modelling capability increases with the order of the polynomial, even if at the cost of greater complexity and reduced interpretability. In this paper we introduce the concept of Heterogeneous FRT: the order of the polynomial function is selected on each leaf node and can lead either to a zero-order or a first-order approximation. In our experimental assessment, the percentage of the two approximation orders is varied to cover the whole spectrum from pure zero-order to pure first-order FRTs, thus allowing an in-depth analysis of the trade-off between accuracy and interpretability. We present and discuss the results in terms of accuracy and interpretability obtained by the corresponding FRTs on nine benchmark datasets.},
+pdf={fcta.pdf}
+}
+
