@@ -22,6 +22,6 @@ I'm an **assistant professor** at the <a href="https://www.unipi.it" target="_bl
  
 My research interests include explainable artificial intelligence and federated learning, machine learning algorithms for data streams, applications of deep learning methodologies and web/ social mining.
 
-I received the M.Sc. degree in Biomedical Engineering from the University of Pisa in 2017 and the Ph.D. degree in Smart Computing jointly awarded by the Universities of Florence, Pisa and Siena, in 2021, with a dissertation titled "<a href="https://flore.unifi.it/handle/2158/1235915#.YQkjgEDOPb0" target="_blank">Algorithms and Techniques for Data Stream Mining</a>" under the supervision of Dott. Ing. <a href="http://www.iet.unipi.it/a.bechini/BechiniHome.html" target="_blank">Alessio Bechini</a>.
+I received the M.Sc. degree in Biomedical Engineering from the University of Pisa in 2017 and the Ph.D. degree in Smart Computing jointly awarded by the Universities of Florence, Pisa and Siena, in 2021, with a dissertation titled "<a href="https://flore.unifi.it/handle/2158/1235915#.YQkjgEDOPb0" target="_blank">Algorithms and Techniques for Data Stream Mining</a>" under the supervision of Prof. <a href="http://www.iet.unipi.it/a.bechini/BechiniHome.html" target="_blank">Alessio Bechini</a>.
 
 You can find my latest CV [here](./assets/pdf/CV.pdf)! 
