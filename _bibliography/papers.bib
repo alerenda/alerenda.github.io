@@ -417,6 +417,36 @@ tppubtype = {inproceedings},
 abstract={The next generation of wireless networks will feature an increasing number of connected devices, which will produce an unprecedented volume of data. Knowledge extraction from decentralized data imposes the exploitation of computing and learning paradigms able to tame the complexity of the network and meet the growing requirement of trustworthiness. In this regard, edge computing overcomes the limitations of cloud computing by moving virtualized computing and storage resources closer to data sources. Furthermore, Federated Learning has been recently proposed as a means to let multiple parties collaboratively train an ML model without disclosing private data. In this paper, we propose an application that enables Federated Learning of eXplainable AI models (Fed-XAI) in an edge computing environment. The proposal represents a step forward towards the adoption of trustworthy AI in next generation wireless networks, ensuring both privacy preservation and explainability. The application components are described, along with the workflow for the training and inference stages. Finally, we discuss the application deployment, in a simulated setting, for addressing a task of video streaming Quality of Experience forecasting in a vehicular network case study.}
 }
 
+@CONFERENCE{fuzzieee2024_chi,
+	bibtex_show={true},
+	author = {M. Daole and P. Ducange and F. Marcelloni and  A. Renda},
+	title = {Trustworthy AI in Heterogeneous Settings: Federated Learning of Explainable Classifiers},
+	year = {2024},
+	booktitle = {IEEE International Conference on Fuzzy Systems},
+	doi = {10.1109/FUZZ-IEEE60900.2024.10612109},
+	url = {https://ieeexplore.ieee.org/document/10612109},
+	html = {https://ieeexplore.ieee.org/document/10612109},
+	pdf = {federated_chi.pdf},
+	abstract = {Trustworthy Artificial Intelligence (AI) has gained significant relevance worldwide. Federated Learning (FL) and eXplainable Artificial Intelligence (XAI) are two among the most relevant paradigms for accomplishing the requirements of trustworthy AI-based applications. On the one hand, FL guarantees data privacy throughout a collaborative learning of an AI model from decentralized data. On the other hand, XAI models ensure transparency, accountability, and trust in AI-based systems by providing understandable explanations for their predictions and decisions. To the best of our knowledge, only few works have explored the combination of FL with inherently explainable models, especially for classification task. In this work, we investigate FL of explainable classifiers, namely Fuzzy Rule-based Classifiers. In the proposed FL scheme, each participant creates its own set of classification rules from its own local training data, resorting to a simple procedure that generates a rule for each training instance. Local rules are sent to a central server which is in charge of aggregating them by removing duplicates and solving conflicts. The aggregated set of rules is then forwarded to the single participants for inference purposes. In our experimental analysis we consider two real-world case studies focusing on heterogeneous settings, namely non-IID (Independent and Identically Distributed) scenarios. Our FL scheme offers significant advantages in terms of classification performance to the participants in the federation, preserving data privacy.}
+}
+
+
+@CONFERENCE{fuzzieee2024_shap,
+	bibtex_show={true},
+	author = {P. Ducange and F. Marcelloni and  A. Renda and F. Ruffini},
+	title = {Consistent Post-Hoc Explainability in Federated Learning through Federated Fuzzy Clustering},
+	year = {2024},
+	booktitle = {IEEE International Conference on Fuzzy Systems},
+	doi = {10.1109/FUZZ-IEEE60900.2024.10611761},
+	url = {https://ieeexplore.ieee.org/document/10611761},
+	html = {https://ieeexplore.ieee.org/document/10611761},
+	pdf = {federated_shap.pdf},
+	abstract = {Ensuring trustworthiness of AI systems by enforcing, for instance, data privacy and model explainability, has become urgent in our society. Recently, the Federated Learning (FL) paradigm has been proposed to preserve data privacy during collaborative model learning. Unfortunately, FL poses critical challenges in the application of post-hoc explanation methods which are used to explain opaque models such as neural networks. In this paper we present an approach for enhancing the explainability of opaque models generated according to the FL paradigm. We focus on one of the most popular methods, namely SHapley Additive exPlanations method (SHAP). Given an input instance, SHAP can explain why an opaque model generated that specific output prediction from the input values. To provide the explanation SHAP needs access to a background dataset, typically consisting of representative training instances. In FL setting, however, the training data are scattered over multiple participants and cannot be shared due to privacy constraints. On the other side, the background dataset should be representative of the overall training set. To this aim, we propose to adopt a federated Fuzzy C-Means clustering for the generation of a common background dataset made up of cluster centers. The resulting background dataset is representative of the actual distribution of the data and can be made available to all participants without violating privacy, thus ensuring accuracy and consistency of the explanations. A thorough experimental analysis shows the validity of the proposed approach also in comparison with baseline and alternative approaches.},
+	slides = {federated_shap_slides.pdf}
+
+}
+
+
 @inproceedings{parkinson-xai2023,
 title = {Federated Learning of Explainable Artificial Intelligence Models for Predicting Parkinson's Disease Progression},
 author = {J. L. Corcuera Bárcena and P. Ducange and F. Marcelloni and A. Renda and F. Ruffini},
