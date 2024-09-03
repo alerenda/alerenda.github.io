@@ -21,7 +21,6 @@
 
 @INPROCEEDINGS{fuzzieee2022b,  
   bibtex_show={true},
-  selected={true},
   author={J. L. Corcuera Bárcena and P. Ducange and A. Ercolani and F. Marcelloni and A. Renda},  
  booktitle={2022 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)},   
  title={An Approach to Federated Learning of Explainable Fuzzy Regression Models},   
@@ -51,7 +50,6 @@
 bibtex_show={true},
 order={2022-06},
 abbr={Information},
-selected = {true},
 html = {https://www.mdpi.com/2078-2489/13/8/395},
 pdf={renda2022information.pdf},
 AUTHOR = {A. Renda and P. Ducange and F. Marcelloni and D. Sabella and M.C. Filippou and G. Nardini and G. Stea and A. Virdis and D. Micheli and D. Rapone and L.G. Baltar},
@@ -110,7 +108,6 @@ DOI = {10.3390/info13080395}
 	order={2022-02},
 	abbr={ACM TKDD},
 	html = {https://doi.org/10.1145/3532186},
-    selected = {true},
     author = {A. Bechini and A. Bondielli and J. L. Corcuera Bárcena  and P. Ducange and F. Marcelloni and A. Renda},
     title = {A News-Based Framework for Uncovering and Tracking City Area Profiles: Assessment in Covid-19 Setting},
     year = {2022},
@@ -188,7 +185,6 @@ doi = {10.1016/j.comcom.2023.07.039},
 @article{softx2023,
 pdf={comcom2023.pdf},
 bibtex_show={true},
-selected={true},
 abbr={SOFT-X},
 order={2023-03},
 title = {OpenFL-XAI: Federated learning of explainable artificial intelligence models in Python},
@@ -207,7 +203,6 @@ abstract = {Artificial Intelligence (AI) systems play a significant role in mani
 
 @ARTICLE{merluzzi2023,
   bibtex_show={true},
-  selected={true},
     abbr={IEEE Access},
     order={2023-01},
 abstract={This paper provides an overview of the most recent advancements and outcomes of the European 6G flagship project Hexa-X, on the topic of in-network Artificial Intelligence (AI) and Machine Learning (ML). We first present a general introduction to the project and its ambitions in terms of use cases (UCs), key performance indicators (KPIs), and key value indicators (KVIs). Then, we identify the key challenges to realize, implement, and enable the native integration of AI and ML in 6G, both as a means for designing flexible, low-complexity, and reconfigurable networks ( learning to communicate ), and as an intrinsic in-network intelligence feature ( communicating to learn or, 6G as an efficient AI/ML platform). We present a high level description of down selected technical enablers and their implications on the Hexa-X identified UCs, KPIs and KVIs. Our solutions cover lower layer aspects, including channel estimation, transceiver design, power amplifier and distributed MIMO related challenges, and higher layer aspects, including AI/ML workload management and orchestration, as well as distributed AI. The latter entails Federated Learning and explainability as means for privacy preserving and trustworthy AI. To bridge the gap between the technical enablers and the 6G targets, some representative numerical results accompany the high level description. Overall, the methodology of the paper starts from the UCs and KPIs/KVIs, to then focus on the proposed technical solutions able to realize them. Finally, a brief discussion of the ongoing regulation activities related to AI is presented, to close our vision towards an AI and ML-driven communication and computation co-design for 6G.},
@@ -446,6 +441,35 @@ abstract={The next generation of wireless networks will feature an increasing nu
 
 }
 
+@ARTICLE{cogcom,
+    author = {P. Ducange and F. Marcelloni and A. Renda and F. Ruffini},
+	title = {Federated Learning of XAI models in healthcare: a case study on Parkinson's Disease},
+	year = {2024},
+	journal = {Cognitive Computation},
+	doi = {10.1007/s12559-024-10332-x},
+	url = {https://link.springer.com/article/10.1007/s12559-024-10332-x},
+	html = {https://link.springer.com/article/10.1007/s12559-024-10332-x},
+	pdf = {cogcom2024},
+	abstract = {Artificial intelligence (AI) systems are increasingly used in healthcare applications, although some challenges have not been completely overcome to make them fully trustworthy and compliant with modern regulations and societal needs. First of all, sensitive health data, essential to train AI systems, are typically stored and managed in several separate medical centers and cannot be shared due to privacy constraints, thus hindering the use of all available information in learning models. Further, transparency and explainability of such systems are becoming increasingly urgent, especially at a time when “opaque” or “black-box” models are commonly used. Recently, technological and algorithmic solutions to these challenges have been investigated: on the one hand, federated learning (FL) has been proposed as a paradigm for collaborative model training among multiple parties without any disclosure of private raw data; on the other hand, research on eXplainable AI (XAI) aims to enhance the explainability of AI systems, either through interpretable by-design approaches or post-hoc explanation techniques. In this paper, we focus on a healthcare case study, namely predicting the progression of Parkinson’s disease, and assume that raw data originate from different medical centers and data collection for centralized training is precluded due to privacy limitations. We aim to investigate how FL of XAI models can allow achieving a good level of accuracy and trustworthiness. Cognitive and biologically inspired approaches are adopted in our analysis: FL of an interpretable by-design fuzzy rule-based system and FL of a neural network explained using a federated version of the SHAP post-hoc explanation technique. We analyze accuracy, interpretability, and explainability of the two approaches, also varying the degree of heterogeneity across several data distribution scenarios. Although the neural network is generally more accurate, the results show that the fuzzy rule-based system achieves competitive performance in the federated setting and presents desirable properties in terms of interpretability and transparency.}
+	bibtex_show={true},
+}
+
+@ARTICLE{tai2024,
+    author = {J.L. Corcuera Bárcena and F. Marcelloni and A. Renda and  A. Bechini and P. Ducange},
+	title = {Federated c-means and Fuzzy c-means Clustering Algorithms for Horizontally and Vertically Partitioned Data},
+	year = {2024},
+	journal = {IEEE Transactions on Artificial Intelligence},
+	pages = {1–15},
+	doi = {10.1109/TAI.2024.3426408},
+	url = {https://ieeexplore.ieee.org/document/10595840},
+	html = {https://ieeexplore.ieee.org/document/10595840},
+	pdf = {tai2024},
+	abstract = {Federated clustering lets multiple data owners collaborate in discovering patterns from distributed data without violating privacy requirements. The federated versions of traditional clustering algorithms proposed so far are, however, “lossy” since they fail to identify exactly the same clusters as the original versions executed on the merged data stored in a centralized server, as would happen if no privacy constraint occurred. In this paper, we propose federated procedures for losslessly executing the C-Means (CM) and the Fuzzy C-Means (FCM) algorithms in both horizontally and vertically partitioned data scenarios, while preserving data privacy. We formally prove that the proposed federated procedures identify the same clusters determined by applying the algorithms to the union of all local data. Further, we present an extensive experimental analysis for characterizing the behavior of the proposed approach in a typical federated learning scenario, that is, as the fraction of participants in the federation changes. We focus on the federated FCM and the horizontally partitioned data, which is the most interesting scenario. We show that the proposed procedure is effective and is able to achieve competitive performance with respect to two recently proposed versions of federated FCM for horizontally partitioned data.}
+	bibtex_show={true},
+	selected = {true}
+
+}
+
 @ARTICLE{inffus2025,
 	bibtex_show={true},
 	author = {J. L. Corcuera Bárcena and P. Ducange and F. Marcelloni and A. Renda},
@@ -453,6 +477,8 @@ abstract={The next generation of wireless networks will feature an increasing nu
 	year = {2025},
 	journal = {Information Fusion},
 	volume = {113},
+	abbr={COMCOM},
+	abbr={INFFUS},
 	doi = {10.1016/j.inffus.2024.102598},
 	url = {https://www.sciencedirect.com/science/article/pii/S1566253524003762},
 	html = {https://www.sciencedirect.com/science/article/pii/S1566253524003762},
