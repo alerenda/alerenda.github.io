@@ -1,41 +1,79 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2487.6">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000e9; -webkit-text-stroke: #0000e9}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #000000; color: rgba(0, 0, 0, 0.85); -webkit-text-stroke: rgba(0, 0, 0, 0.85)}
-    li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000e9; -webkit-text-stroke: #0000e9}
-    li.li2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
-    span.s1 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
-    span.s2 {text-decoration: underline ; font-kerning: none; -webkit-text-stroke: 0px #0000e9}
-    span.s3 {font-kerning: none}
-    span.s4 {font: 12.0px Times; font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
-    span.s5 {font-kerning: none; background-color: #b3b3b3}
-    span.s6 {-webkit-text-stroke: 0px #000000}
-    span.s7 {text-decoration: underline ; font-kerning: none}
-    ul.ul1 {list-style-type: disc}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1">{% if page.title != "about" %} <a href="file:///Users/alessandrorenda/Desktop/Website/alerenda.github.io/_includes/%7B%7B%20site.baseurl%20%7C%20prepend:%20site.url%20%7D%7D/"><span class="s2">{% if site.title == "blank" %}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %} </span></a>{% elsif site.enable_navbar_social %}</span></p>
-<p class="p2"><span class="s3">{% include social.html %}</span></p>
-<p class="p3"><span class="s4">{% endif %} </span><span class="s5">Toggle navigation</span></p>
-<ul class="ul1">
-  <li class="li1"><span class="s6"><a href="file:///Users/alessandrorenda/Desktop/Website/alerenda.github.io/_includes/%7B%7B%20'/'%20%7C%20relative_url%20%7D%7D"><span class="s7">about {% if page.title == "about" %} (current) {% endif %}</span></a></span></li>
-  <li class="li2"><span class="s6"></span><span class="s3">{% if site.blog_name %}</span></li>
-  <li class="li1"><span class="s6"><a href="file:///Users/alessandrorenda/Desktop/Website/alerenda.github.io/_includes/%7B%7B%20'/blog/'%20%7C%20relative_url%20%7D%7D"><span class="s7">blog {% if page.title == "blog" %} (current) {% endif %}</span></a></span></li>
-  <li class="li2"><span class="s6"></span><span class="s3">{% endif %} {% assign sorted_pages = site.pages | sort: "order" %} {% for p in sorted_pages %} {% if p.nav and p.autogen == nil %}</span></li>
-  <li class="li1"><span class="s6"><a href="file:///Users/alessandrorenda/Desktop/Website/alerenda.github.io/_includes/%7B%7B%20p.url%20%7C%20relative_url%20%7D%7D"><span class="s7">{{ p.title }} {% if page.title == p.title %} (current) {% endif %}</span></a></span></li>
-  <li class="li2"><span class="s6"></span><span class="s3">{% endif %} {% endfor %}</span></li>
-  <li class="li1"><span class="s6"><a href="https://ai.dii.unipi.it" target="_blank"><span class="s7">AI-DII</span></a></span></li>
-  <li class="li2"><span class="s6"></span><span class="s3">{% if site.enable_darkmode %} <br>
-{% endif %}</span></li>
-</ul>
-</body>
-</html>
+<header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
+    <div class="container">
+      {% if page.title != "about" %}
+      <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
+       {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
+      </a>
+      {% elsif site.enable_navbar_social %}
+        <!-- Social Icons -->
+        <div class="navbar-brand social">
+          {% include social.html %}
+        </div>
+      {% endif %}
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/' | relative_url }}">
+              about
+              {% if page.title == "about" %}
+                <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+          </li>
+          {% if site.blog_name %}
+          <!-- Blog -->
+          <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/blog/' | relative_url }}">
+              blog
+              {% if page.title == "blog" %}
+              <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+          </li>
+          {% endif %}
+          <!-- Other pages -->
+          {% assign sorted_pages = site.pages | sort: "order" %}
+          {% for p in sorted_pages %}
+          {% if p.nav and p.autogen == nil %}
+          <li class="nav-item {% if page.title == p.title %}active{% endif %}">
+              <a class="nav-link" href="{{ p.url | relative_url }}">
+                {{ p.title }}
+                {% if page.title == p.title %}
+                <span class="sr-only">(current)</span>
+                {% endif %}
+              </a>
+          </li>
+
+          {% endif %}
+          {% endfor %}
+					
+		  <li class="nav-item">
+              <a class="nav-link" href="#" target="_blank">
+                AI-DII
+              </a>
+          </li>
+          {% if site.enable_darkmode %}
+            <div class = "toggle-container">
+              <a id = "light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+              </a>
+            </div>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
