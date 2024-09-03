@@ -6,6 +6,14 @@
   - firstname: ["Alessio", "A."]
     url: https://scholar.google.it/citations?user=ooYOGP4AAAAJ&hl=it
 
+"Schiavo":
+  - firstname: ["Alessio", "A."]
+    url: https://scholar.google.it/citations?user=rtryFnIAAAAJ&hl=it
+
+"Daole":
+  - firstname: ["Mattia", "M."]
+    url: https://scholar.google.it/citations?user=yNletAoAAAAJ&hl=it
+
 "Ducange":
   - firstname: ["Pietro", "P."]
     url: https://scholar.google.it/citations?user=HCgZqXEAAAAJ&hl=it    
@@ -27,7 +35,7 @@
     url: https://scholar.google.it/citations?hl=it&user=qLBgBmwAAAAJ
         
 "Bárcena": 
-  - firstname: ["J.L.C.", "J. L. Corcuera"]
+  - firstname: ["J.L.C.", "J. L. Corcuera", ]
     url: https://scholar.google.it/citations?user=dasDbcAAAAAJ&hl=it
     
 "Sabella": 
