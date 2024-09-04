@@ -8,4 +8,6 @@ img: /assets/img/xai.png
 importance: "2023-07-27"
 location: Lisbon, Portugal
 category: contributed talks
+latitude: 38.708286
+longitude: -9.138222
 ---

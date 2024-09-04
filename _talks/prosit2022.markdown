@@ -8,4 +8,6 @@ img: /assets/img/prosit.png
 importance: "2023-04-18"
 location: Pisa
 category: contributed talks
+latitude: 43.722839
+longitude: 10.401689
 ---

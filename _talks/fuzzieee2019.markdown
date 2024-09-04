@@ -8,6 +8,7 @@ img: /assets/img/fuzzieee2019.jpg
 importance: "2019-06-23"
 location: NewOrleans, Louisiana USA
 category: contributed talks
+latitude: 29.951065
+longitude: -90.071533
 ---
-
 

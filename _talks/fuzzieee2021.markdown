@@ -8,4 +8,6 @@ img: /assets/img/fuzzieee2021.jpg
 importance: "2021-07-11"
 location: <strike>Luxembourg</strike> (Virtual)
 category: contributed talks
+latitude: 49.815273
+longitude: 6.129583
 ---

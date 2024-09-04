@@ -8,4 +8,6 @@ img: /assets/img/fuzzieee2023.png
 importance: "2023-08-15"
 location: Incheon, South Korea
 category: contributed talks
+latitude: 37.456257
+longitude: 126.705208
 ---

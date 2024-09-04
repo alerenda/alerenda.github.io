@@ -8,4 +8,6 @@ img: /assets/img/icict2020.png
 importance: "2020-02-20"
 location: London, United Kingdom
 category: contributed talks
+latitude: 51.507351
+longitude: -0.127758
 ---

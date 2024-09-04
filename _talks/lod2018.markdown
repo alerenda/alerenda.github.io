@@ -8,6 +8,8 @@ img: /assets/img/lod2018.png
 importance: "2018-09-13"
 location: Volterra, Italy
 category: contributed talks
+latitude: 43.399395
+longitude: 10.866033
 ---
 
 

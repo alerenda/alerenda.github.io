@@ -8,8 +8,9 @@ img: /assets/img/unipi.png
 importance: "2019-11-15"
 location: School of Engineering, University of Pisa, Pisa, Italy
 category: seminars
+latitude: 43.722839
+longitude: 10.401689
 ---
-
 
 
 

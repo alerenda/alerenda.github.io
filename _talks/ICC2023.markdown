@@ -8,4 +8,6 @@ img: /assets/img/icc2023.png
 importance: "2023-05-29"
 location: Rome
 category: invited talks - round tables
+latitude: 41.902783
+longitude: 12.496365
 ---

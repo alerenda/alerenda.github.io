@@ -8,4 +8,6 @@ img: /assets/img/elate.jpg
 importance: "2022-01-20"
 location: <strike>Pisa</strike> (Virtual)
 category: invited talks - round tables
+latitude: 43.722839
+longitude: 10.401689
 ---

@@ -8,6 +8,8 @@ img: /assets/img/mathcompepi2018.jpg
 importance: "2018-08-28"
 location: Erice, Italy
 category: contributed talks
+latitude: 38.038089
+longitude: 12.587351
 ---
 
 
