@@ -10,15 +10,10 @@ location:
   latitude: 51.5285582
   longitude: -0.2416807
 ---
-{% leaflet_map %}
-    {}
-{% endleaflet_map %}
-
 {% leaflet_map {"providerBasemap": "OpenTopoMap"} %}
     {% for category in page.display_categories %}
       {% assign categorized_talks = site.talks | where: "category", category %}
-      {% assign sorted_talks = categorized_talks | sort: "importance" | reverse %}
-      {% for talk in sorted_talks %}
+      {% for talk in categorized_talks %}
             {% leaflet_marker { "latitude" : {{talk.latitude}},
                                 "longitude" : {{talk.longitude}} } %}
       {% endfor %}
