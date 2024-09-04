@@ -10,6 +10,10 @@ location:
   latitude: 51.5285582
   longitude: -0.2416807
 ---
+{% leaflet_map %}
+    {}
+{% endleaflet_map %}
+
 <div class="talks">
   <!-- Display categorized projects -->
     {% for category in page.display_categories %}
