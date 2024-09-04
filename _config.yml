@@ -145,6 +145,7 @@ plugins:
   - jekyll-sitemap
   - jemoji
   - jekyll-maps
+  - jekyll-leaflet
 
 # Extras
 github: [metadata]
