@@ -14,6 +14,17 @@ location:
     {}
 {% endleaflet_map %}
 
+{% leaflet_map {"providerBasemap": "OpenTopoMap"} %}
+    {% for category in page.display_categories %}
+      {% assign categorized_talks = site.talks | where: "category", category %}
+      {% assign sorted_talks = categorized_talks | sort: "importance" | reverse %}
+      {% for talk in sorted_talks %}
+            {% leaflet_marker { "latitude" : {{talk.latitude}},
+                                "longitude" : {{talk.longitude}} } %}
+      {% endfor %}
+    {% endfor %}
+{% endleaflet_map %}
+
 <div class="talks">
   <!-- Display categorized projects -->
     {% for category in page.display_categories %}
