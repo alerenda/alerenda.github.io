@@ -1,6 +1,6 @@
 ---
 layout: page
-sigla: AIE - Seminario Satellite
+sigla: AIE 2023 - Seminario Satellite
 venue: Epidemiologia - intelligenza artificiale e nuove tecnologie per affrontare le sfide presenti e future 
 title: Progettare sistemi di AI per analizzare contenuti social riguardo al tema dei vaccini
 data: 18 April 2023

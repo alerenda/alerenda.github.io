@@ -1,6 +1,6 @@
 ---
 layout: page
-sigla: Seminar
+sigla: Seminar UniPi 2020
 venue: University of Pisa
 title: "Introduction to Python and SkLearn, Text Mining in Python"
 data: November 2020

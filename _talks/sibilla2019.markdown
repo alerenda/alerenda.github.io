@@ -1,6 +1,6 @@
 ---
 layout: page
-sigla: Seminar
+sigla: Seminar UniPi 2019
 venue: University of Pisa
 title: "Research in Artificial Intelligence: The Case of the Project Sibilla"
 data: 15 November 2019

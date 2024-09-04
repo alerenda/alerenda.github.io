@@ -1,6 +1,6 @@
 ---
 layout: page
-sigla: DIGITALMeet 
+sigla: DIGITALMeet2021 
 venue: Digital Meet 2021
 title: L'Intelligenza Artificiale Responsabile come motore di innovazione nella società e nell'industria
 data: 22 October 2021

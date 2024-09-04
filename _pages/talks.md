@@ -15,7 +15,8 @@ location:
       {% assign categorized_talks = site.talks | where: "category", category %}
       {% for talk in categorized_talks %}
             {% leaflet_marker { "latitude" : {{talk.latitude}},
-                                "longitude" : {{talk.longitude}} } %}
+                                "longitude" : {{talk.longitude}},
+				"popupContent" : "{{talk.sigla}}" } %}
       {% endfor %}
     {% endfor %}
 {% endleaflet_map %}

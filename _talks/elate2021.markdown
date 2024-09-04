@@ -1,6 +1,6 @@
 ---
 layout: page
-sigla: ELaTe Digital Winter School 
+sigla: ELaTe Digital Winter School 2022
 venue: The Law, Economics and Engineering of Advanced Medical Technologies 
 title: Artificial Intelligence. Concepts, opportunities and challenges toward Trustworthy AI
 data: 20 January 2022
