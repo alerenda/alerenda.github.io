@@ -10,5 +10,6 @@ location: NewOrleans, Louisiana USA
 category: contributed talks
 latitude: 29.951065
 longitude: -90.071533
+image_url: /assets/img/picfuzziee2019.jpg
 ---
 

@@ -16,7 +16,7 @@ location:
       {% for talk in categorized_talks %}
             {% leaflet_marker { "latitude" : {{talk.latitude}},
                                 "longitude" : {{talk.longitude}},
-				"popupContent" : "{{talk.sigla}}" } %}
+                "popupContent" : "<div><img src='{{talk.image_url}}' alt='{{talk.sigla}}' style='width:100px;height:auto;'><p>{{talk.sigla}}</p></div>"} %}
       {% endfor %}
     {% endfor %}
 {% endleaflet_map %}
