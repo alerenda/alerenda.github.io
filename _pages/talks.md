@@ -4,7 +4,7 @@ title: talks
 permalink: /talks/
 description: Dissemination activity, participation at international conferences with contributed talks, and seminars.
 nav: true
-display_categories: [invited talks - round tables, contributed talks, project meeting, seminars]
+display_categories: [invited talks - round tables, contributed talks, project meeting, other attended conferences, seminars]
 order: 4
 location:
   latitude: 51.5285582
