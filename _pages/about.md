@@ -22,4 +22,5 @@ I'm a **research fellow** at the <a href="https://www.units.it" target="_blank">
  
 My research interests include explainable artificial intelligence and federated learning, machine learning algorithms for data streams, applications of deep learning methodologies and web/ social mining.
 
+Previously, I was a research fellow at the <a href="https://www.unipi.it" target="_blank">University of Pisa</a>, working at the <a href="https://www.dii.unipi.it" target="_blank">Department of Information Engineering (DII)</a> as a member of the <a href="http://ai.dii.unipi.it/" target="_blank">Artificial Intelligence-DII (AI-DII)</a> LAB.
 I received the M.Sc. degree in Biomedical Engineering from the University of Pisa in 2017 and the Ph.D. degree in Smart Computing jointly awarded by the Universities of Florence, Pisa and Siena, in 2021, with a dissertation titled "<a href="https://flore.unifi.it/handle/2158/1235915#.YQkjgEDOPb0" target="_blank">Algorithms and Techniques for Data Stream Mining</a>" under the supervision of Prof. <a href="http://www.iet.unipi.it/a.bechini/BechiniHome.html" target="_blank">Alessio Bechini</a>.
