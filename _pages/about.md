@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   address: >
     <p>Dept. of Engineering and Architecture</p>
-    <p>University of Pisa</p>
+    <p>University of Trieste</p>
     <p>Via Alfonso Valerio 6/1</p>
     <p>34127 Trieste TS, Italy</p>
 
