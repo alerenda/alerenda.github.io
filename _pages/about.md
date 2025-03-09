@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: ts.jpg
   address: >
     <p>Dept. of Engineering and Architecture</p>
     <p>University of Trieste</p>
