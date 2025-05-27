@@ -13,4 +13,5 @@ group :jekyll_plugins do
     gem 'webrick'
     gem 'jekyll-maps'
     gem 'jekyll-leaflet'
+    gem 'jekyll-toc'
 end

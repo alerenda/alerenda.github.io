@@ -13,3 +13,16 @@ $max-content-width: {{site.max_width}};
   "base",
   "distill"
 ;
+
+
+.callout-note {
+  background-color: var(--global-distill-callout-color);
+  border-left: 4px solid var(--global-theme-color);
+  padding: 1rem;
+  margin: 1.5rem 0;
+  border-radius: 5px;
+  color: var(--global-distill-callout-text) !important;
+  * {
+    color: var(--global-distill-callout-text) !important;
+  }
+}

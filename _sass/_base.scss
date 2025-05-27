@@ -555,3 +555,38 @@ html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
 }
+
+
+/* Normalizza la freccia di Bootstrap */
+.navbar .dropdown-toggle::after {
+  display: inline-block;
+  width: 0.4em;
+  height: 0.4em;
+  margin-left: 0.3em;
+  vertical-align: 0.2em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-left: 0.3em solid transparent;
+}
+@media (min-width: 768px) {
+  .navbar .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+}
+a:hover, .dropdown-menu a:hover {
+  cursor: pointer !important;
+}
+
+
+.markdown-body table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.markdown-body table td,
+.markdown-body table th {
+  border: 1px solid #ccc;
+  padding: 0.5em;
+}

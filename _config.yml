@@ -64,7 +64,7 @@ keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 
-contact_note: #  You can contact me at "alessandro dot renda at unipi dot it"
+contact_note: #  You can contact me at "alessandro dot renda at dia dot units dot it"
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
@@ -101,6 +101,9 @@ collections:
   talks:
     output: true
     permalink: /talks/:path/
+  teaching:
+    output: true
+    permalink: /teaching/:path/
     
 news_limit: 3
 
@@ -146,6 +149,7 @@ plugins:
   - jemoji
   - jekyll-maps
   - jekyll-leaflet
+  - jekyll-toc
 
 # Extras
 github: [metadata]
