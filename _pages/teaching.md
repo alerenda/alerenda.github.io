@@ -33,7 +33,7 @@ order: 3
   </div>
 </div>
 
-
+<!--
 <div class="card class mt-3">
   <div class="p-3">
     <div class="row">
@@ -59,3 +59,4 @@ order: 3
     </ul>
   </div>
 </div>
+-->
