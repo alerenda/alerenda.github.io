@@ -20,6 +20,7 @@ permalink: /teaching/fondamenti/
 toc:
   - name: Informazioni Generali
   - name: Informazioni Esame
+  - name: Prove d'esame passate
 ---
 
 
@@ -53,3 +54,52 @@ toc:
   </ul>
 </div>
 
+
+|  |                            |
+|----------:|-----------------------------------------------|
+|  2024-2025       |
+| **Corso di laurea**       | Ingegneria Industriale       |
+| **Codice**       | 013IN                          |
+| **Docente**      | Alessandro Renda                         |
+| **CFU**      | 9 |
+| **Durata**    | 72 ore (48 Lezione, 24 Laboratorio)        |
+| **Periodo**     | Secondo semestre              |
+
+## Prove d'esame passate
+
+Si riportano i testi delle prove d'esame passate per quanto riguarda la parte di programmazione in Python
+{% assign fondinf_2627 = site.static_files | where_exp:"f", "f.path contains '/assets/fondinf2627/'" %}
+{% assign fondinf_2526 = site.static_files | where_exp:"f", "f.path contains '/assets/fondinf2526/'" %}
+{% assign fondinfsim_files = site.static_files | where_exp:"f", "f.path contains '/assets/fondinfsim/'" %}
+
+
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse; border: none;">
+  <tbody>
+    <!-- RIGA 25-26 -->
+    <tr>
+      <td style="font-weight: bold; border: none;">25-26</td>
+      {% assign col_count = 0 %}
+      {% for file in fondinf_2526 %}
+        <td style="text-align: center; border: none;"><a href="{{ file.path }}">{{ file.name | replace: '.pdf', '' }}</a></td>
+        {% assign col_count = col_count | plus: 1 %}
+      {% endfor %}
+      {% assign remaining = 7 | minus: col_count %}
+      {% for i in (1..remaining) %}
+        <td style="border: none;"></td>
+      {% endfor %}
+    </tr>
+    <!-- RIGA Sim -->
+    <tr>
+      <td style="font-weight: bold; border: none;">Sim</td>
+      {% assign sim_count = 0 %}
+      {% for file in fondinfsim_files %}
+        <td style="text-align: center; border: none;"><a href="{{ file.path }}">{{ file.name | replace: '.pdf', '' }}</a></td>
+        {% assign sim_count = sim_count | plus: 1 %}
+      {% endfor %}
+      {% assign empty_cells = 7 | minus: sim_count %}
+      {% for i in (1..empty_cells) %}
+        <td style="border: none;"></td>
+      {% endfor %}
+    </tr>
+  </tbody>
+</table>
