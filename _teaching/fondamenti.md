@@ -20,7 +20,7 @@ permalink: /teaching/fondamenti/
 toc:
   - name: Informazioni Generali
   - name: Informazioni Esame
-  - name: Prove d'esame passate
+  - name: Archivio Esami
 ---
 
 
@@ -65,9 +65,9 @@ toc:
 | **Durata**    | 72 ore (48 Lezione, 24 Laboratorio)        |
 | **Periodo**     | Secondo semestre              |
 
-## Prove d'esame passate
+## Archivio Esami
 
-Si riportano i testi delle prove d'esame passate per quanto riguarda la parte di programmazione in Python
+Si riportano di seguito i testi delle prove d'esame passate per quanto riguarda la parte di programmazione in Python.
 {% assign fondinf_2627 = site.static_files | where_exp:"f", "f.path contains '/assets/fondinf2627/'" %}
 {% assign fondinf_2526 = site.static_files | where_exp:"f", "f.path contains '/assets/fondinf2526/'" %}
 {% assign fondinfsim_files = site.static_files | where_exp:"f", "f.path contains '/assets/fondinfsim/'" %}
