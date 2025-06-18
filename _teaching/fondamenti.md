@@ -90,7 +90,7 @@ Si riportano di seguito i testi delle prove d'esame passate per quanto riguarda 
     </tr>
     <!-- RIGA Sim -->
     <tr>
-      <td style="font-weight: bold; border: none;">Sim</td>
+      <td style="font-weight: bold; border: none;"></td>
       {% assign sim_count = 0 %}
       {% for file in fondinfsim_files %}
         <td style="text-align: center; border: none;"><a href="{{ file.path }}">{{ file.name | replace: '.pdf', '' }}</a></td>
