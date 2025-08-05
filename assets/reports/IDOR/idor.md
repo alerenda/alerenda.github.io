@@ -1,5 +1,5 @@
 ---
-layout: distill
+layout: post
 title: "IDOR Lab Report"
 permalink: /teaching/cybersecurity/idor/
 description: "Report on IDOR lab activity"
@@ -14,7 +14,7 @@ An example report update!
 
 This is a simple screenshot from burp!
 
-![BURP](images/burp.png)
+![BURP](/assets/images/burp.png)
 
 Burp can
 

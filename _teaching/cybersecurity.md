@@ -51,3 +51,4 @@ toc:
 - Link to the docsify this template: https://docsify-this.net/?basePath=https://raw.githubusercontent.com/alerenda/alerenda.github.io/master/assets/reports/template&homepage=home.md#/
 - [Report](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/alerenda/alerenda.github.io/master/assets/reports/template&homepage=home.md#/) example for IDOR activity
 - IDOR example: [Report](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/alerenda/alerenda.github.io/master/assets/reports/IDOR&homepage=idor.md&sidebar=true#/?id=introduction)
+- IDOR example internal: [Report](/teaching/cybersecurity/idor)
