@@ -68,8 +68,8 @@ toc:
 ## Archivio Esami
 
 Si riportano di seguito i testi delle prove d'esame passate per quanto riguarda la parte di programmazione in Python.
-{% assign fondinf_2627 = site.static_files | where_exp:"f", "f.path contains '/assets/fondinf2627/'" %}
 {% assign fondinf_2526 = site.static_files | where_exp:"f", "f.path contains '/assets/fondinf2526/'" %}
+{% assign fondinf_2425 = site.static_files | where_exp:"f", "f.path contains '/assets/fondinf2425/'" %}
 {% assign fondinfsim_files = site.static_files | where_exp:"f", "f.path contains '/assets/fondinfsim/'" %}
 
 
@@ -77,9 +77,9 @@ Si riportano di seguito i testi delle prove d'esame passate per quanto riguarda 
   <tbody>
     <!-- RIGA 25-26 -->
     <tr>
-      <td style="font-weight: bold; border: none;">25-26</td>
+      <td style="font-weight: bold; border: none;">24-25</td>
       {% assign col_count = 0 %}
-      {% for file in fondinf_2526 %}
+      {% for file in fondinf_2425 %}
         <td style="text-align: center; border: none;"><a href="{{ file.path }}">{{ file.name | replace: '.pdf', '' }}</a></td>
         {% assign col_count = col_count | plus: 1 %}
       {% endfor %}
