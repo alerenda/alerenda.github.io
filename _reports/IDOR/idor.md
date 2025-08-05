@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "IDOR Lab Report"
-permalink: /teaching/cybersecurity/idor/
 description: "Report on IDOR lab activity"
 ---
 
@@ -24,5 +23,3 @@ Burp can
 
 > Cit
 > -- <cite>Port Swigger</cite>
-
-assets/reports/IDOR/idor.md

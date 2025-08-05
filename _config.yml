@@ -104,6 +104,9 @@ collections:
   teaching:
     output: true
     permalink: /teaching/:path/
+  reports:
+    output: true
+    permalink: /teaching/cybersecurity/:name/
     
 news_limit: 3
 
