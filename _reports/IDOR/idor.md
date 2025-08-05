@@ -25,3 +25,4 @@ Burp can
 > Cit
 > -- <cite>Port Swigger</cite>
 
+assets/reports/IDOR/idor.md
