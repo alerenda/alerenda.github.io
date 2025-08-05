@@ -14,7 +14,7 @@ An example report update!
 
 This is a simple screenshot from burp!
 
-![BURP](/assets/reports/IDOR/images/burp.png)
+![BURP](https://alerenda.github.io/assets/reports/IDOR/images/burp.png)
 
 Burp can
 

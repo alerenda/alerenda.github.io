@@ -4,7 +4,7 @@
 
 See https://github.com/hibbitts-design/docsify-this-one-page-article/tree/main for more details
 
-![Photo of Mountain](images/mountain.jpg)
+![Photo of Mountain](https://alerenda.github.io/assets/reports/template/images/mountain.jpg)
 
 [Docsify](https://docsify.js.org/#/) can generate article, portfolio and documentation websites on the fly. Unlike Docusaurus, Hugo and many other Static Site Generators (SSG), it does not generate static html files. Instead, it smartly loads and parses your Markdown content files and displays them as a website.
 
@@ -13,7 +13,7 @@ See https://github.com/hibbitts-design/docsify-this-one-page-article/tree/main f
 
 **Markdown** is a system-independent markup language that is easier to learn and use than **HTML**.
 
-![Figure 1: The Markdown Mark](images/markdown-red.png)
+![Figure 1: The Markdown Mark](https://alerenda.github.io/assets/reports/template/images/markdown-red.png)
 
 Some of the key benefits are:
 
@@ -590,9 +590,9 @@ Images have a similar syntax to links but include a preceding exclamation point.
 and using a local image (which also displays in GitHub):
 
 ```markdown
-![Image of Octocat](images/octocat.jpg)
+![Image of Octocat](https://alerenda.github.io/assets/reports/template/images/octocat.jpg)
 ```
-![Image of Octocat](images/octocat.jpg)
+![Image of Octocat](https://alerenda.github.io/assets/reports/template/images/octocat.jpg)
 
 ## Topic One  
 

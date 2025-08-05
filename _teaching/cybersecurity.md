@@ -47,8 +47,6 @@ toc:
 
 ## Docsify.this template and example
 
-
-- Link to the docsify this template: https://docsify-this.net/?basePath=https://raw.githubusercontent.com/alerenda/alerenda.github.io/master/_reports/template&homepage=home.md#/
 - [Report](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/alerenda/alerenda.github.io/master/_reports/template&homepage=home.md#/) docsify template
 - IDOR example: [Report](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/alerenda/alerenda.github.io/master/_reports/IDOR&homepage=idor.md&sidebar=true#/?id=introduction)
 - IDOR example internal: [Report](/teaching/cybersecurity/idor)
