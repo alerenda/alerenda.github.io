@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "IDOR Lab Report"
 permalink: /teaching/cybersecurity/idor/
 description: "Report on IDOR lab activity"
