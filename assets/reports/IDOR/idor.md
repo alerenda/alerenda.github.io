@@ -1,6 +1,13 @@
+---
+layout: distill
+title: "IDOR Lab Report"
+permalink: /teaching/cybersecurity/idor/
+description: "Report on IDOR lab activity"
+---
+
 # IDOR Vulnerabilities
 
-An example report
+An example report update!
 
 
 ## Introduction
