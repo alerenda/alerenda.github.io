@@ -1,12 +1,31 @@
 ---
 layout: distill
 title: "[505IM] Cybersecurity Lab"
+description: Master Degree Computer Engineering
+tags: distill formatting
+giscus_comments: true
+featured: true
+mermaid:
+  enabled: true
+  zoomable: true
+code_diff: true
+map: true
+chart:
+  chartjs: true
+  echarts: true
+  vega_lite: true
+tikzjax: true
+typograms: true
 permalink: /teaching/cybersecurity/
+toc:
+  - name: General Info
+  - name: Other Info
+  - name: Docsify.this template and example
 ---
 
 
 
-## Info
+## General Info
 
 |  |                            |
 |----------:|-----------------------------------------------|
@@ -18,7 +37,7 @@ permalink: /teaching/cybersecurity/
 | **Duration**    | 48 hours |
 | **Period**     | First semester              |
 
-## Other info
+## Other Info
 
 
 <div class="callout-note">
@@ -26,7 +45,7 @@ permalink: /teaching/cybersecurity/
 </div>
 
 
-# Docsify.this: template and example
+## Docsify.this template and example
 
 
 - Link to the docsify this template: https://docsify-this.net/?basePath=https://raw.githubusercontent.com/alerenda/alerenda.github.io/master/assets/reports/template&homepage=home.md#/
