@@ -120,8 +120,8 @@ This procedure can be automated in BURP with the Intruder module, as follows.
 ![alt text](https://alerenda.github.io/assets/reports/IDOR/images/intruderresults.png)
 
 
-## Manipulate Basket
-> <cite>Put an additional product into another user’s shopping basket.</cite>
+## #2. Manipulate Basket
+> <cite> Description: Put an additional product into another user’s shopping basket.</cite>
 
 The preliminary steps of the previous challenge can be leveraged.
 
@@ -151,6 +151,6 @@ The discovery procedure is outlined in the following:
 
 
 
-> At first glance, an authorization mechanism appears to be in place. However, the presence of such a check does not necessarily mean that the endpoint is free of flaws: it may still be vulnerable to IDOR (*and indeed it is, since this challenge exists*). Further hints provided by the [companion website](https://pwning.owasp-juice.shop/companion-guide/latest/part2/broken-access-control.html#_put_an_additional_product_into_another_users_shopping_basket)  may help identify where the authorization logic fails and how the vulnerability can be exploited.
+> At a first glance, an authorization mechanism is in place. However, the presence of such a check does not necessarily mean that the authorization functionality is free of flaws: it may still be vulnerable to IDOR (*and indeed it is, since this challenge exists*). Further hints provided by the [companion website](https://pwning.owasp-juice.shop/companion-guide/latest/part2/broken-access-control.html#_put_an_additional_product_into_another_users_shopping_basket)  may help identify where the authorization logic fails and how the vulnerability can be exploited.
 
 **Try to complete the challenge!**
