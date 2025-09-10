@@ -8,16 +8,15 @@ description: "Report on IDOR lab activity"
 
 In this report, the OWASP Juice Shop webapp is used to showcase the exploitation of two IDOR vulnerabilities.
 
-![WEBSITE](https://alerenda.github.io/assets/reports/IDOR/images/burp.png)
+## Tools
+- OWASP Juice Shop (running from Docker image)
+- BURP Suite Proxy
 
-## #1. View Basket
+## Challenge #1. View Basket
 > <cite>Description: View another user’s shopping basket</cite>
 
 Of course, this is a mistake in the code of the webapp, i.e., a vulnerability: a user must not be able to see data private of another user.
 
-### Tools
-- OWASP Juice Shop (running from Docker image)
-- BURP Suite Proxy
 
 ### Preliminary steps
 1. Create two accounts, e.g.:
@@ -120,7 +119,7 @@ This procedure can be automated in BURP with the Intruder module, as follows.
 ![alt text](https://alerenda.github.io/assets/reports/IDOR/images/intruderresults.png)
 
 
-## #2. Manipulate Basket
+## Challenge #2. Manipulate Basket
 > <cite> Description: Put an additional product into another user’s shopping basket.</cite>
 
 The preliminary steps of the previous challenge can be leveraged.
