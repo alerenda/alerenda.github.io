@@ -13,6 +13,7 @@ In this report, the OWASP Juice Shop webapp is used to showcase the exploitation
 - BURP Suite Proxy
 
 ## Challenge #1. View Basket
+
 > <cite>Description: View another user’s shopping basket</cite>
 
 Of course, this is a mistake in the code of the webapp, i.e., a vulnerability: a user must not be able to see data private of another user.
@@ -29,18 +30,24 @@ Of course, this is a mistake in the code of the webapp, i.e., a vulnerability: a
 ![BASKET](https://alerenda.github.io/assets/reports/IDOR/images/basketa.png)
 
 5. Logout and then login as the other user, i.e., `b@gmail.com`
+6. Add a product to the basket.
 
 
 ### Discovery
-1. Add a product to the basket.
-2. Set `Intercept On`.
-3. Visualize the content of the basket by clicking on the cart icon.
+1. Set `Intercept On`.
+2. Visualize the content of the basket by clicking on the cart icon.
 BURP will intercept, among others, a `GET` requests to the endpoint `/rest/basket/7`
+
 ![basketrequest](https://alerenda.github.io/assets/reports/IDOR/images/basketrequest.png) 
+
 Notice that, as requests are stalling, the content of the basket is not showing up.
+
 ![basketrequest](https://alerenda.github.io/assets/reports/IDOR/images/interceptbasket.png) 
+
 3. Set `Intercept Off` and make sure the shopping basket has been fully displayed. Under the hood, the client-side JavaScript has processed the server response and has dynamically updated the DOM to display the basket content. 
+
 ![basketrequest](https://alerenda.github.io/assets/reports/IDOR/images/basketb.png) 
+
 4. Go to the `HTTP History` tab and inspect the response to the request `GET` `/rest/basket/7`. The resource in the body of the response is represented in JSON:
 ```JSON
 {
@@ -79,13 +86,13 @@ Notice that, as requests are stalling, the content of the basket is not showing 
 
 Observations: 
 
-> The `GET` to `/rest/basket/7` may be suggestive of an **IDOR vulnerability**: the parameter in the URL path represents a direct object reference, which identifies the shopping basket of this user. 
+> The request `GET` `/rest/basket/7` may be suggestive of an **IDOR vulnerability**: the parameter in the URL path represents a direct object reference, which identifies the shopping basket of this user. 
 
-> The value of the parameter in the URL path (i.e., `7`) is a small integer and, as such, it is enumerable and highly predictable. *Security through obscurity* is not implemented. 
+> The value of the parameter in the URL path (i.e., `7`) is a small integer and, as such, it is enumerable and seems highly predictable. *Security through obscurity* is not implemented. 
 
 > Ultimately, the presence of an IDOR vulnerability depends on whether the application enforces proper authorization checks. 
 
-The discovery procedure is outlined in the following:
+The actual exploitation attempt procedure is outlined in the following:
 
 1. Go to the `HTTP History` tab and select the request `GET` `/rest/basket/7`.
 2. Right click on it and select `Send to Repeater`
@@ -112,10 +119,10 @@ This procedure can be automated in BURP with the Intruder module, as follows.
 4. Specify which part of the request has to be modified at each iteration: select the parameter value `7` in the request and click on `Add §`. The request will appear as follows: `GET /rest/basket/§7§`
 ![alt text](https://alerenda.github.io/assets/reports/IDOR/images/intruder.png)
 5. Specify how to modify the selected part of the URL at each iteration: in the `Payloads tab` set `Payload Type: Numbers` and set a reasonable range (e.g., `Sequential` from 1 to 10 with step 1).
-6. Specify which part of the response will be extracted and shown in the results window: on the side Menu on the right, click on the `Settings` tab; in the `Grep - Extract` section, click on `Add`. Selecting a portion of text in the response will create a suitable regex automatically. Click `Ok`.
+6. Specify which part of the response will be extracted and shown in the results window: on the side Menu on the right, click on the `Settings` tab; in the `Grep - Extract` section, click on `Add`. Selecting a portion of text in the response will create a suitable configuration automatically. Click `Ok`.
 ![alt text](https://alerenda.github.io/assets/reports/IDOR/images/grepmatch.png)
 7. Click on `Start attack`.
-8. A window related to the attack will appear. The column *"success"* (the name derives from the regex) shows the content of the extracted text for each response. Note that the payloads 8, 9, 10 probably do not represent valid values of `basket-id`, as the extracted value of `data` is null. In the bottom part of the window, each request and response can be inspected.
+8. A window related to the attack will appear. The column *"success"* (the name derives from the *'start from' expression*) shows the content of the extracted text for each response. Note that the payloads 8, 9, 10 probably do not represent valid values of `basket-id`, as the extracted value of `data` is null. In the bottom part of the window, each request and response can be inspected.
 ![alt text](https://alerenda.github.io/assets/reports/IDOR/images/intruderresults.png)
 
 
@@ -139,7 +146,7 @@ Observations:
 
 > The request `POST` `/api/BasketItems` may be suggestive of an **IDOR vulnerability**: the parameter `BasketId`in the request body represents a direct object reference, which identifies the shopping basket to be updated, associated with the current user. 
 
-The discovery procedure is outlined in the following:
+The actual exploitation attempt procedure is outlined in the following:
 
 1. Go to the `HTTP History` tab and select the request `POST` `/api/BasketItems`.
 2. Right click on it and select `Send to Repeater`
@@ -152,4 +159,4 @@ The discovery procedure is outlined in the following:
 
 > At a first glance, an authorization mechanism is in place. However, the presence of such a check does not necessarily mean that the authorization functionality is free of flaws: it may still be vulnerable to IDOR (*and indeed it is, since this challenge exists*). Further hints provided by the [companion website](https://pwning.owasp-juice.shop/companion-guide/latest/part2/broken-access-control.html#_put_an_additional_product_into_another_users_shopping_basket)  may help identify where the authorization logic fails and how the vulnerability can be exploited.
 
-**Try to complete the challenge!**
+**Try to complete the challenge! Also report any uncessful attempt you find interesting.**
