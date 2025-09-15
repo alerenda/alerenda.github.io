@@ -10,8 +10,8 @@ In this report, the OWASP Juice Shop webapp is used to showcase the exploitation
 Part of this document is based on material from prof. Alberto Bartoli.
 
 ## Tools
-- OWASP Juice Shop (running from Docker image)
-- BURP Suite Proxy
+- OWASP Juice Shop (running from Docker image) v18.0.0
+- BURP Suite Proxy v2025.7.4
 
 ## Challenge #1. View Basket
 
