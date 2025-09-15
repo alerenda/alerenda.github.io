@@ -26,10 +26,11 @@ Of course, this is a mistake in the code of the webapp, i.e., a vulnerability: a
 - `b@gmail.com`
 
 2. Login as `a@gmail.com`
-3. Add a product to the basket. 
+3. Add a product to the basket
 4. Visualize the content of the basket by clicking on the cart icon:
+![basketa](https://alerenda.github.io/assets/reports/IDOR/images/basketa.png)
 5. Logout and then login as the other user, i.e., `b@gmail.com`
-6. Add a product to the basket.
+6. Add a product to the basket
 
 
 ### Discovery
@@ -41,6 +42,7 @@ BURP will intercept, among others, a `GET` requests to the endpoint `/rest/baske
 
 Notice that, as requests are stalling, the content of the basket is not showing up.
 3. Set `Intercept Off` and make sure the shopping basket has been fully displayed. Under the hood, the client-side JavaScript has processed the server response and has dynamically updated the DOM to display the basket content. 
+![basketb](https://alerenda.github.io/assets/reports/IDOR/images/basketb.png) 
 4. Go to the `HTTP History` tab and inspect the response to the request `GET` `/rest/basket/7`. The resource in the body of the response is represented in JSON:
 ```JSON
 {
