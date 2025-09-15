@@ -7,6 +7,7 @@ description: "Report on IDOR lab activity"
 # IDOR Vulnerabilities
 
 In this report, the OWASP Juice Shop webapp is used to showcase the exploitation of two IDOR vulnerabilities.
+Part of this document is based on material from prof. Alberto Bartoli.
 
 ## Tools
 - OWASP Juice Shop (running from Docker image)
@@ -27,8 +28,6 @@ Of course, this is a mistake in the code of the webapp, i.e., a vulnerability: a
 2. Login as `a@gmail.com`
 3. Add a product to the basket. 
 4. Visualize the content of the basket by clicking on the cart icon:
-![BASKET](https://alerenda.github.io/assets/reports/IDOR/images/basketa.png)
-
 5. Logout and then login as the other user, i.e., `b@gmail.com`
 6. Add a product to the basket.
 
@@ -41,13 +40,7 @@ BURP will intercept, among others, a `GET` requests to the endpoint `/rest/baske
 ![basketrequest](https://alerenda.github.io/assets/reports/IDOR/images/basketrequest.png) 
 
 Notice that, as requests are stalling, the content of the basket is not showing up.
-
-![basketrequest](https://alerenda.github.io/assets/reports/IDOR/images/interceptbasket.png) 
-
 3. Set `Intercept Off` and make sure the shopping basket has been fully displayed. Under the hood, the client-side JavaScript has processed the server response and has dynamically updated the DOM to display the basket content. 
-
-![basketrequest](https://alerenda.github.io/assets/reports/IDOR/images/basketb.png) 
-
 4. Go to the `HTTP History` tab and inspect the response to the request `GET` `/rest/basket/7`. The resource in the body of the response is represented in JSON:
 ```JSON
 {
@@ -101,7 +94,6 @@ The actual exploitation attempt procedure is outlined in the following:
 ![alt text](https://alerenda.github.io/assets/reports/IDOR/images/repeater.png)
 5. Note that the basket represented in JSON within the response is the one related to the user `a@gmail.com`, whereas the current user, who sent the request, is `b@gmail.com`.
 6. Check the browser. A *vulnerability found* banner will show up.
-![banner](https://alerenda.github.io/assets/reports/IDOR/images/banner.png)
 
 > The web application is vulnerable to IDOR: due to missing authorization checks, a user can access the shopping basket of another user.
 
