@@ -48,8 +48,8 @@ toc:
 ## Lab reports 
 
 - The report must be a single web page containing one or more images.
-- The web page must be published on the web with the [Docsify-⁠This](https://docsify-this.net/#/) service. This service takes as input the URL of a single Markdown file, possibly referencing the URLs of one or more images, and publishes that Markdown file as a web page.
-- The Markdown page and images containing your report must be published on the web (for consumption by Docsify⁠–⁠This) as a Github public repository.
+- The web page must be published on the web. 
+- You may want to use the [Docsify-⁠This](https://docsify-this.net/#/) service: this service takes as input the URL of a single Markdown file, possibly referencing the URLs of one or more images, and publishes that Markdown file as a web page. In this case, the Markdown page and images containing your report must be published on the web (for consumption by Docsify⁠–⁠This) as a Github public repository.
 
 
 You may want to check the following examples:
