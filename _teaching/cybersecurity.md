@@ -19,8 +19,8 @@ typograms: true
 permalink: /teaching/cybersecurity/
 toc:
   - name: General Info
-  - name: Other Info
-  - name: Docsify.this
+  - name: Introduction to the course
+  - name: Lab reports
 ---
 
 
@@ -37,12 +37,10 @@ toc:
 | **Duration**    | 48 hours |
 | **Period**     | First semester              |
 
-## Other Info
+## Introduction to the course
 
 
-<div class="callout-note">
-  <p>to appear <strong>soon</strong></p>
-</div>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTWEBXpbd_sAvEDzDALwWVS3qhtwQeEGtZxkrjmfWVxQhoQAZDcTN6-HFWw8Qw9nw/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 ## Lab reports 
@@ -55,4 +53,3 @@ toc:
 You may want to check the following examples:
 - [Docsify-this template](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/alerenda/alerenda.github.io/master/_reports/template&homepage=home.md#/)
 - [Example report](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/alerenda/alerenda.github.io/master/_reports/IDOR&homepage=idor.md#/) for IDOR vulnerabilities. Note that one of the two vulnerabilities discussed is not described in full: actual exploitation is left as an exercise.
-
