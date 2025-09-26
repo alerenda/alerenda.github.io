@@ -40,7 +40,7 @@ toc:
 ## Introduction to the course
 
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR36JSmigP-Pr8W19_z6HfoCz7SAQHe_ANyYB6OSPoPYlnUsCnP9VJLG5QyawqgkQ/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR36JSmigP-Pr8W19_z6HfoCz7SAQHe_ANyYB6OSPoPYlnUsCnP9VJLG5QyawqgkQ/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Example report 
 
