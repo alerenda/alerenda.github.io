@@ -37,6 +37,13 @@ toc:
 | **Duration**    | 48 hours |
 | **Period**     | First semester              |
 
+
+
+<div class="callout-note">
+  <p>Lectures on Tuesday start at 12.00</p>
+  <p>Lectures on Thursday start at 13.30</p>
+</div>
+
 ## Introduction to the course
 
 
