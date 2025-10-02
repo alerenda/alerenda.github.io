@@ -40,8 +40,9 @@ toc:
 
 
 <div class="callout-note">
-  <p>Lectures on Tuesday start at 12.00</p>
-  <p>Lectures on Thursday start at 13.30</p>
+  <p><b> Lectures Timetable (may be updated as needed) </b></p>
+  <p>Tuesday: 12.00 - 13.30</p>
+  <p>Thursday: 13.30 - 16.00</p>
 </div>
 
 ## Introduction to the course
