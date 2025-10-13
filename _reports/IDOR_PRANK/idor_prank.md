@@ -83,7 +83,7 @@ Observations:
 
 > The request `GET` `/rest/basket/7` may be suggestive of an **IDOR vulnerability**: the parameter in the URL path represents a direct object reference, which identifies the shopping basket of this user. 
 
-> The value of the parameter in the URL path (i.e., `7`) is a small integer and, as such, it is enumerable and seems highly predictable. *Security through obscurity* is not implemented. 
+> The value of the parameter in the URL path (i.e., `7`) is a small integer and, as such, it is enumerable and seems highly predictable. *The strategy of using not predictable and not enurmerable references* is not implemented. 
 
 > Ultimately, the presence of an IDOR vulnerability depends on whether the application enforces proper authorization checks. 
 
