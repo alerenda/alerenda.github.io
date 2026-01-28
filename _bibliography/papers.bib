@@ -412,7 +412,7 @@ tppubtype = {inproceedings},
 abstract={The next generation of wireless networks will feature an increasing number of connected devices, which will produce an unprecedented volume of data. Knowledge extraction from decentralized data imposes the exploitation of computing and learning paradigms able to tame the complexity of the network and meet the growing requirement of trustworthiness. In this regard, edge computing overcomes the limitations of cloud computing by moving virtualized computing and storage resources closer to data sources. Furthermore, Federated Learning has been recently proposed as a means to let multiple parties collaboratively train an ML model without disclosing private data. In this paper, we propose an application that enables Federated Learning of eXplainable AI models (Fed-XAI) in an edge computing environment. The proposal represents a step forward towards the adoption of trustworthy AI in next generation wireless networks, ensuring both privacy preservation and explainability. The application components are described, along with the workflow for the training and inference stages. Finally, we discuss the application deployment, in a simulated setting, for addressing a task of video streaming Quality of Experience forecasting in a vehicular network case study.}
 }
 
-@ inproceedings{fuzzieee2024_chi,
+@inproceedings{fuzzieee2024_chi,
 	bibtex_show={true},
 	author = {M. Daole and P. Ducange and F. Marcelloni and  A. Renda},
 	title = {Trustworthy AI in Heterogeneous Settings: Federated Learning of Explainable Classifiers},
@@ -426,7 +426,7 @@ abstract={The next generation of wireless networks will feature an increasing nu
 }
 
 
-@ inproceedings{fuzzieee2024_shap,
+@inproceedings{fuzzieee2024_shap,
 	bibtex_show={true},
 	author = {P. Ducange and F. Marcelloni and  A. Renda and F. Ruffini},
 	title = {Consistent Post-Hoc Explainability in Federated Learning through Federated Fuzzy Clustering},
@@ -556,5 +556,57 @@ html = {https://doi.org/10.5220/0012231000003595},
 isbn={978-989-758-674-3},
 Abstract={Fuzzy Regression Trees (FRTs) are widely acknowledged as highly interpretable ML models, capable of dealing with noise and/or uncertainty thanks to the adoption of fuzziness. The accuracy of FRTs, however, strongly depends on the polynomial function adopted in the leaf nodes. Indeed, their modelling capability increases with the order of the polynomial, even if at the cost of greater complexity and reduced interpretability. In this paper we introduce the concept of Heterogeneous FRT: the order of the polynomial function is selected on each leaf node and can lead either to a zero-order or a first-order approximation. In our experimental assessment, the percentage of the two approximation orders is varied to cover the whole spectrum from pure zero-order to pure first-order FRTs, thus allowing an in-depth analysis of the trade-off between accuracy and interpretability. We present and discuss the results in terms of accuracy and interpretability obtained by the corresponding FRTs on nine benchmark datasets.},
 pdf={fcta.pdf}
+}
+
+
+@ARTICLE{Ducange2026,
+	author = {P. Ducange and F. Marcelloni and G.C. Miglionico and A. Renda and F. Ruffini},
+	title = {Federated SHAP: Privacy-Preserving and Consistent Post-hoc Explainability in Federated Learning},
+	year = {2026},
+	journal = {Machine Learning},
+	volume = {115},
+	number = {2},
+	doi = {10.1007/s10994-025-06956-1},
+	html = {https://doi.org/10.1007/s10994-025-06956-1},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105027956425&doi=10.1007%2fs10994-025-06956-1&partnerID=40&md5=1015300be44e6ea6e07c9aeaf9718355},
+	type = {Article},
+	abstract={The widespread adoption of Artificial Intelligence in everyday activities highlights a growing and urgent need for trustworthiness. Designing trustworthy AI systems requires addressing key technical challenges, including ensuring data privacy and model explainability. Federated Learning (FL) is a widely adopted paradigm to preserve data privacy in collaborative learning scenarios, while post-hoc methods are commonly applied to enhance the explainability of opaque AI-based models. In this paper, we propose a novel approach, called Federated SHAP, to simultaneously address privacy and explainability. Specifically, we leverage the SHapley Additive exPlanations (SHAP) method to provide post-hoc explanations of Neural Networks trained through FL. SHAP relies on a representative background dataset; however, constructing such a dataset in the FL setting is particularly challenging since raw data distributed across multiple clients cannot be shared directly due to strict privacy requirements. To address this challenge, we propose two tailored strategies depending on the data type: for tabular data, we adopt a Federated Fuzzy C-Means clustering algorithm to collaboratively summarize the distributed datasets into a suitable background dataset; for image data, we introduce a Federated Generative Adversarial Network (GAN) to synthesize representative background instances. A comprehensive experimental evaluation demonstrates the effectiveness and robustness of our proposed approaches, comparing them against several baseline and alternative strategies in terms of both representativeness and quality of generated explanations. Compared to baselines employing randomly generated representative background datasets, our approach reduces the discrepancy of SHAP explanations by up to three times on tabular data and two times on image data (depending on the test case involved), when measured against the centralized SHAP values computed using the full training set as background dataset.},
+	pdf={ML2026.pdf},
+  	abbr={MACHLEARN},
+    bibtex_show={true},
+
+
+}
+
+@INPROCEEDINGS{Daole2025,
+  author={M. Daole and P. Ducange and F. Herrera and F. Marcelloni and A. Renda and N. Rodríguez-Barroso},
+  booktitle={2025 International Joint Conference on Neural Networks (IJCNN)}, 
+  title={Security Threats to Explainable Classifiers in Federated Learning}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Fuzzy logic;Degradation;Analytical models;Privacy;Federated learning;Closed box;Artificial neural networks;Robustness;Security;Federated Learning;Explainable Artificial Intelligence;Fuzzy Rule-based Classifiers;Security},
+  doi={10.1109/IJCNN64981.2025.11227961},
+  bibtex_show={true},
+  html = {https://doi.org/10.1109/IJCNN64981.2025.11227961},
+  abstract ={The decentralized nature of federated learning (FL) poses critical challenges related to security: Clients participating in the process may not necessarily be trustworthy and could engage in adversarial attacks, potentially undermining the integrity and reliability of the global machine learning model. Security concerns have been extensively investigated in traditional FL, where collaboratively learned models are typically deep neural networks. However, this class of models does not meet the requirement of explainability, which is considered essential for the trustworthiness of AI systems. In this work, we present an analysis on security threats to FL of explainable models, namely fuzzy rule-based classifiers (FRBCs). We outline the types of attacks a malicious client may implement, and assess, through a preliminary experimental analysis, the impact they have on FL of FRBCs in terms of global model performance. We also compare these findings with the effects of the same or similar well-established attacks in traditional FL of neural network models. Finally, we provide insights to improve the security of FRBCs learned in a federated fashion.},
+  pdf={daole2025.pdf},
+    }
+
+    @conference{explains24,
+author={M. Daole and P. Ducange and F. Marcelloni and G.C. Miglionico and A. Renda and A. Schiavo},
+title={XAIMed: A Diagnostic Support Tool for Explaining AI Decisions on Medical Images},
+pages={27-37},
+publisher={SciTePress},
+organization={INSTICC},
+doi={10.5220/0012942000003886},
+isbn={978-989-758-720-7},
+html= {https://doi.org/10.5220/0012942000003886},
+booktitle={Proc. of the 1st Int'l Conf. on Explainable AI for Neural and Symbolic Methods - EXPLAINS},
+year={2024},
+Abstract={Convolutional Neural Networks have demonstrated high accuracy in medical image analysis, but the opaque nature of such deep learning models hinders their widespread acceptance and clinical adoption. To address this issue, we present XAIMed, a diagnostic support tool specifically designed to be easy to use for physicians. XAIMed supports diagnostic processes involving the analysis of medical images through Convolutional Neural Networks. Besides the model prediction, XAIMed also provides visual explanations using four state-of-art eXplainable AI methods: LIME, RISE, Grad-CAM, and Grad-CAM++. These methods produce saliency maps which highlight image regions that are most influential for a model decision. We also introduce a simple strategy for aggregating the different saliency maps into a unified view which reveals a coarse-grained level of agreement among the explanations. The application features an intuitive graphical user interface and is designed in a modular fashion thus facilitating the integration of new tasks, new models, and new explanation methods.},
+pdf={xaimed.pdf},
+  bibtex_show={true},
 }
 
