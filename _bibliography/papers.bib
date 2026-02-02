@@ -471,29 +471,6 @@ abstract={The next generation of wireless networks will feature an increasing nu
 	bibtex_show={true},
 	selected = {true},
 	order={2024-07},
-
-
-}
-
-@ARTICLE{inffus2025,
-	bibtex_show={true},
-	author = {J. L. Corcuera Bárcena and P. Ducange and F. Marcelloni and A. Renda},
-	title = {Increasing trust in AI through privacy preservation and model explainability: Federated Learning of Fuzzy Regression Trees},
-	year = {2025},
-	journal = {Information Fusion},
-	volume = {113},
-	abbr={INFFUS},
-	doi = {10.1016/j.inffus.2024.102598},
-	url = {https://www.sciencedirect.com/science/article/pii/S1566253524003762},
-	html = {https://www.sciencedirect.com/science/article/pii/S1566253524003762},
-	abstract = {Federated Learning (FL) lets multiple data owners collaborate in training a global model without any violation of data privacy, which is a crucial requirement for enhancing users’ trust in Artificial Intelligence (AI) systems. Despite the significant momentum recently gained by the FL paradigm, most of the existing approaches in the field neglect another key pillar for the trustworthiness of AI systems, namely explainability. In this paper, we propose a novel approach for FL of fuzzy regression trees (FRTs), which are generally acknowledged as highly interpretable by-design models. The proposed FL procedure is designed for the scenario of horizontally partitioned data and is based on the transmission of aggregated statistics from the clients to a central server for the tree induction procedure. It is shown that the proposed approach faithfully approximates the ideal case in which the tree induction algorithm is applied on the union of all local datasets, while still ensuring privacy preservation. Furthermore, the FL approach brings benefits, in terms of generalization capability, compared to the local learning setting in which each participant learns its own FRT based only on the private, local, dataset. The adoption of linear models in the leaf nodes ensures a competitive level of performance, as assessed by an extensive experimental campaign on benchmark datasets. The analysis of the results covers both the aspects of accuracy and interpretability of FRT. Finally, we discuss the application of the proposed federated FRT to the task of Quality of Experience forecasting in an automotive case-study.},
-	code = {https://github.com/Unipisa/FederatedFuzzyRegressionTree},
-	pdf={inffus2025.pdf},
-	selected = {true},
-	order={2025-01},
-
-
-
 }
 
 
@@ -559,25 +536,6 @@ pdf={fcta.pdf}
 }
 
 
-@ARTICLE{Ducange2026,
-	author = {P. Ducange and F. Marcelloni and G.C. Miglionico and A. Renda and F. Ruffini},
-	title = {Federated SHAP: Privacy-Preserving and Consistent Post-hoc Explainability in Federated Learning},
-	year = {2026},
-	journal = {Machine Learning},
-	volume = {115},
-	number = {2},
-	doi = {10.1007/s10994-025-06956-1},
-	html = {https://doi.org/10.1007/s10994-025-06956-1},
-	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105027956425&doi=10.1007%2fs10994-025-06956-1&partnerID=40&md5=1015300be44e6ea6e07c9aeaf9718355},
-	type = {Article},
-	abstract={The widespread adoption of Artificial Intelligence in everyday activities highlights a growing and urgent need for trustworthiness. Designing trustworthy AI systems requires addressing key technical challenges, including ensuring data privacy and model explainability. Federated Learning (FL) is a widely adopted paradigm to preserve data privacy in collaborative learning scenarios, while post-hoc methods are commonly applied to enhance the explainability of opaque AI-based models. In this paper, we propose a novel approach, called Federated SHAP, to simultaneously address privacy and explainability. Specifically, we leverage the SHapley Additive exPlanations (SHAP) method to provide post-hoc explanations of Neural Networks trained through FL. SHAP relies on a representative background dataset; however, constructing such a dataset in the FL setting is particularly challenging since raw data distributed across multiple clients cannot be shared directly due to strict privacy requirements. To address this challenge, we propose two tailored strategies depending on the data type: for tabular data, we adopt a Federated Fuzzy C-Means clustering algorithm to collaboratively summarize the distributed datasets into a suitable background dataset; for image data, we introduce a Federated Generative Adversarial Network (GAN) to synthesize representative background instances. A comprehensive experimental evaluation demonstrates the effectiveness and robustness of our proposed approaches, comparing them against several baseline and alternative strategies in terms of both representativeness and quality of generated explanations. Compared to baselines employing randomly generated representative background datasets, our approach reduces the discrepancy of SHAP explanations by up to three times on tabular data and two times on image data (depending on the test case involved), when measured against the centralized SHAP values computed using the full training set as background dataset.},
-	pdf={ML2026.pdf},
-  	abbr={MACHLEARN},
-    bibtex_show={true},
-
-
-}
-
 @INPROCEEDINGS{Daole2025,
   author={M. Daole and P. Ducange and F. Herrera and F. Marcelloni and A. Renda and N. Rodríguez-Barroso},
   booktitle={2025 International Joint Conference on Neural Networks (IJCNN)}, 
@@ -609,4 +567,40 @@ Abstract={Convolutional Neural Networks have demonstrated high accuracy in medic
 pdf={xaimed.pdf},
   bibtex_show={true},
 }
+
+@ARTICLE{inffus2025,
+	bibtex_show={true},
+	author = {J. L. Corcuera Bárcena and P. Ducange and F. Marcelloni and A. Renda},
+	title = {Increasing trust in AI through privacy preservation and model explainability: Federated Learning of Fuzzy Regression Trees},
+	year = {2025},
+	journal = {Information Fusion},
+	volume = {113},
+	abbr={INFFUS},
+	doi = {10.1016/j.inffus.2024.102598},
+	url = {https://www.sciencedirect.com/science/article/pii/S1566253524003762},
+	html = {https://www.sciencedirect.com/science/article/pii/S1566253524003762},
+	abstract = {Federated Learning (FL) lets multiple data owners collaborate in training a global model without any violation of data privacy, which is a crucial requirement for enhancing users’ trust in Artificial Intelligence (AI) systems. Despite the significant momentum recently gained by the FL paradigm, most of the existing approaches in the field neglect another key pillar for the trustworthiness of AI systems, namely explainability. In this paper, we propose a novel approach for FL of fuzzy regression trees (FRTs), which are generally acknowledged as highly interpretable by-design models. The proposed FL procedure is designed for the scenario of horizontally partitioned data and is based on the transmission of aggregated statistics from the clients to a central server for the tree induction procedure. It is shown that the proposed approach faithfully approximates the ideal case in which the tree induction algorithm is applied on the union of all local datasets, while still ensuring privacy preservation. Furthermore, the FL approach brings benefits, in terms of generalization capability, compared to the local learning setting in which each participant learns its own FRT based only on the private, local, dataset. The adoption of linear models in the leaf nodes ensures a competitive level of performance, as assessed by an extensive experimental campaign on benchmark datasets. The analysis of the results covers both the aspects of accuracy and interpretability of FRT. Finally, we discuss the application of the proposed federated FRT to the task of Quality of Experience forecasting in an automotive case-study.},
+	code = {https://github.com/Unipisa/FederatedFuzzyRegressionTree},
+	pdf={inffus2025.pdf},
+	selected = {true},
+	order={2025-01},
+
+@ARTICLE{Ducange2026,
+	author = {P. Ducange and F. Marcelloni and G.C. Miglionico and A. Renda and F. Ruffini},
+	title = {Federated SHAP: Privacy-Preserving and Consistent Post-hoc Explainability in Federated Learning},
+	year = {2026},
+	journal = {Machine Learning},
+	volume = {115},
+	number = {2},
+	doi = {10.1007/s10994-025-06956-1},
+	html = {https://doi.org/10.1007/s10994-025-06956-1},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105027956425&doi=10.1007%2fs10994-025-06956-1&partnerID=40&md5=1015300be44e6ea6e07c9aeaf9718355},
+	type = {Article},
+	abstract={The widespread adoption of Artificial Intelligence in everyday activities highlights a growing and urgent need for trustworthiness. Designing trustworthy AI systems requires addressing key technical challenges, including ensuring data privacy and model explainability. Federated Learning (FL) is a widely adopted paradigm to preserve data privacy in collaborative learning scenarios, while post-hoc methods are commonly applied to enhance the explainability of opaque AI-based models. In this paper, we propose a novel approach, called Federated SHAP, to simultaneously address privacy and explainability. Specifically, we leverage the SHapley Additive exPlanations (SHAP) method to provide post-hoc explanations of Neural Networks trained through FL. SHAP relies on a representative background dataset; however, constructing such a dataset in the FL setting is particularly challenging since raw data distributed across multiple clients cannot be shared directly due to strict privacy requirements. To address this challenge, we propose two tailored strategies depending on the data type: for tabular data, we adopt a Federated Fuzzy C-Means clustering algorithm to collaboratively summarize the distributed datasets into a suitable background dataset; for image data, we introduce a Federated Generative Adversarial Network (GAN) to synthesize representative background instances. A comprehensive experimental evaluation demonstrates the effectiveness and robustness of our proposed approaches, comparing them against several baseline and alternative strategies in terms of both representativeness and quality of generated explanations. Compared to baselines employing randomly generated representative background datasets, our approach reduces the discrepancy of SHAP explanations by up to three times on tabular data and two times on image data (depending on the test case involved), when measured against the centralized SHAP values computed using the full training set as background dataset.},
+	pdf={ML2026.pdf},
+  	abbr={MACHLEARN},
+    bibtex_show={true},
+}
+
+
 
