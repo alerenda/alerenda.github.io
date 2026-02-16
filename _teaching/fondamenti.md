@@ -28,7 +28,7 @@ toc:
 
 |  |                            |
 |----------:|-----------------------------------------------|
-| **Anno Accademico**      | 2024-2025       |
+| **Anno Accademico**      | 2025-2026       |
 | **Corso di laurea**       | Ingegneria Industriale       |
 | **Codice**       | 013IN                          |
 | **Docente**      | Alessandro Renda                         |
@@ -41,29 +41,20 @@ toc:
 
 <div class="callout-note">
   <p>È <strong>obbligatoria l’iscrizione all'esame</strong> tramite la piattaforma esse3.</p>
-  <p>Si noti che le iscrizioni chiudono alcuni giorni prima (almeno 5) rispetto alla data dell’esame.</p>
+  <p>Si noti che le iscrizioni chiudono alcuni giorni prima (tipicamente 7) rispetto alla data dell’esame.</p>
 </div>
 
 
 <div class="callout-note">
-  <p><strong>Studenti di anni accademici precedenti</strong></p>
+  <p><strong>Studenti iscritti nell'Anno Accademico (A.A.) 2023-2024 e precedenti</strong></p>
   <p>È possibile sostenere l’esame con le modalità ed il programma previsti per l'A.A. in cui si è seguito il corso. In questo caso è obbligatorio:</p>
   <ul>
-    <li>Comunicare al docente via mail, almeno due settimane prima rispetto alla data dell’esame, l’intenzione di sostenere l’esame secondo le modalità di un A.A. specifico, diverso da quello corrente</li>
+    <li>Comunicare al docente via mail, almeno una settimana prima rispetto alla data dell’esame, l’intenzione di sostenere l’esame secondo le modalità di un A.A. specifico, diverso da quello corrente</li>
     <li>Comunicare l’intenzione di sostenere l’esame secondo le modalità di un A.A. specifico, diverso da quello corrente, al momento dell’iscrizione all’esame su esse3</li>
   </ul>
+  <p>In assenza di queste comunicazioni, da ripetere ad ogni appello, non sarà possibile sostenere l’esame con modalità e programma differenti da quelli previsti per l’A.A. corrente. </p>
 </div>
 
-
-|  |                            |
-|----------:|-----------------------------------------------|
-|  2024-2025       |
-| **Corso di laurea**       | Ingegneria Industriale       |
-| **Codice**       | 013IN                          |
-| **Docente**      | Alessandro Renda                         |
-| **CFU**      | 9 |
-| **Durata**    | 72 ore (48 Lezione, 24 Laboratorio)        |
-| **Periodo**     | Secondo semestre              |
 
 ## Archivio Esami
 
