@@ -75,7 +75,7 @@ Si riportano di seguito i testi delle prove d'esame passate per quanto riguarda 
 
 <table style="width: 100%; table-layout: fixed; border-collapse: collapse; border: none;">
   <tbody>
-    <!-- RIGA 25-26 -->
+    <!-- RIGA 24-25 -->
     <tr>
       <td style="font-weight: bold; border: none;">24-25</td>
       {% assign col_count = 0 %}
@@ -85,19 +85,6 @@ Si riportano di seguito i testi delle prove d'esame passate per quanto riguarda 
       {% endfor %}
       {% assign remaining = 7 | minus: col_count %}
       {% for i in (1..remaining) %}
-        <td style="border: none;"></td>
-      {% endfor %}
-    </tr>
-    <!-- RIGA Sim -->
-    <tr>
-      <td style="font-weight: bold; border: none;"></td>
-      {% assign sim_count = 0 %}
-      {% for file in fondinfsim_files %}
-        <td style="text-align: center; border: none;"><a href="{{ file.path }}">{{ file.name | replace: '.pdf', '' }}</a></td>
-        {% assign sim_count = sim_count | plus: 1 %}
-      {% endfor %}
-      {% assign empty_cells = 7 | minus: sim_count %}
-      {% for i in (1..empty_cells) %}
         <td style="border: none;"></td>
       {% endfor %}
     </tr>
