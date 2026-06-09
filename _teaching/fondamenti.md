@@ -66,6 +66,19 @@ Si riportano di seguito i testi delle prove d'esame passate per quanto riguarda 
 
 <table style="width: 100%; table-layout: fixed; border-collapse: collapse; border: none;">
   <tbody>
+    <!-- RIGA 25-26 -->
+    <tr>
+      <td style="font-weight: bold; border: none;">25-26</td>
+      {% assign col_count = 0 %}
+      {% for file in fondinf_2526 %}
+        <td style="text-align: center; border: none;"><a href="{{ file.path }}">{{ file.name | replace: '.pdf', '' }}</a></td>
+        {% assign col_count = col_count | plus: 1 %}
+      {% endfor %}
+      {% assign remaining = 7 | minus: col_count %}
+      {% for i in (1..remaining) %}
+        <td style="border: none;"></td>
+      {% endfor %}
+    </tr>
     <!-- RIGA 24-25 -->
     <tr>
       <td style="font-weight: bold; border: none;">24-25</td>
