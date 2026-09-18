@@ -29,7 +29,7 @@ toc:
 
 |  |                            |
 |----------:|-----------------------------------------------|
-| **Academic Year**      | 2025-2026       |
+| **Academic Year**      | 2026-2027       |
 | **Master Degree**       | Computer Engineering (Curriculum "Informatics")       |
 | **Course Code**       | 505MI                          |
 | **Instructor**      | Alessandro Renda                         |
@@ -41,14 +41,13 @@ toc:
 
 <div class="callout-note">
   <p><b> Lectures Timetable </b></p>
-  <p>Tuesday: 11.15 - 13.00</p>
-  <p>Thursday: 13.30 - 16.00</p>
+  <p>Tuesday: 13.00 - 16.00</p>
+  <p>Thursday: 14.00 - 16.00</p>
 </div>
 
 ## Introduction to the course
 
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR36JSmigP-Pr8W19_z6HfoCz7SAQHe_ANyYB6OSPoPYlnUsCnP9VJLG5QyawqgkQ/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTdSiif7OB8i7IDcBMYzCiRPZq4xj0rdWgGGpScXv7zzsP3yVDveGX_KJO7qxQGZQ/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Example report 
 
