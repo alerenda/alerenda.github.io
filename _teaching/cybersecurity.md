@@ -41,8 +41,8 @@ toc:
 
 <div class="callout-note">
   <p><b> Lectures Timetable </b></p>
-  <p>Tuesday: 13.00 - 16.00</p>
-  <p>Thursday: 14.00 - 16.00</p>
+  <p>Monday: 13.00 - 16.00</p>
+  <p>Tuesday: 14.00 - 16.00</p>
 </div>
 
 ## Introduction to the course
