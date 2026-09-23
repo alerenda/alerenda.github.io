@@ -1,0 +1,13 @@
+---
+layout: page
+sigla: KES 
+venue: 30th International Conference on Knowledge-Based and Intelligent Information & Engineering Systems
+title: Evolutionary Complexity Reduction of Federated Fuzzy Rule-Based Classifiers: A Preliminary Experimental Analysis
+data: 08 September 2026
+img: /assets/img/kes.jpg
+importance: "2026-09-08"
+location: Dublin, Ireland
+category: contributed talks
+latitude: 43.722839
+longitude: 10.401689
+---
