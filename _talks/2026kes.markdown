@@ -8,6 +8,6 @@ img: /assets/img/kes.jpg
 importance: "2026-09-08"
 location: Dublin, Ireland
 category: contributed talks
-latitude: 43.722839
-longitude: 10.401689
+latitude: 53.349804
+longitude: -6.260310
 ---
